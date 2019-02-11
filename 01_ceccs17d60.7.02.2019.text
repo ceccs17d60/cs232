@@ -108,11 +108,11 @@ sort: cannot read: nk7: No such file or directory
 2.tinto
 3.varkey
 ]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ sort -t'$\t' -k7 no1
-sort: multi-character tab ‘$\\t’
+sort: multi-character tab â€˜$\\tâ€™
 ]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ sort -t'$\t' -k7 no1[1@\
-sort: multi-character tab ‘$\\\\t’
+sort: multi-character tab â€˜$\\\\tâ€™
 ]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ sort -t'$\\t' -k7 no1[1P[1@ 
-sort: multi-character tab ‘$\\t’
+sort: multi-character tab â€˜$\\tâ€™
 ]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ cut f3-[K[K[K-f3 no1
 1.jacob
 2.tinto
@@ -268,7 +268,8 @@ address
 ln: missing file operand
 Try 'ln --help' for more information.
 ]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ man ln
-[?1049h[?1h=LN(1)                            User Commands                           LN(1)[m
+[?1049h[?1h=
+LN(1)                            User Commands                           LN(1)[m
 [m
 [1mNAME[0m[m
        ln - make links between files[m
@@ -291,7 +292,8 @@ Try 'ln --help' for more information.
 [m
        Mandatory arguments to long options are  mandatory  for  short  options[m
        too.[m
-[7m Manual page ln(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ ln -s a kk.text
+[7m Manual page ln(1) line 1 (press h for help or q to quit)[27m[K
+[K[?1l>[?1049l]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ ln -s a kk.text
 ln: failed to create symbolic link 'kk.text': File exists
 ]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ ln -s a kk.text[C[1Pkk.text[1Pkk.text[C[C[C[C[C[C[C  a
 ]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ a
@@ -301,7 +303,8 @@ Linux
 ]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ uname -a
 Linux jacob-Vostro-3478 4.4.0-142-generic #168-Ubuntu SMP Wed Jan 16 21:00:45 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
 ]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ man ls
-[?1049h[?1h=LS(1)                            User Commands                           LS(1)[m
+[?1049h[?1h=
+LS(1)                            User Commands                           LS(1)[m
 [m
 [1mNAME[0m[m
        ls - list directory contents[m
@@ -311,7 +314,7 @@ Linux jacob-Vostro-3478 4.4.0-142-generic #168-Ubuntu SMP Wed Jan 16 21:00:45 UT
 [m
 [1mDESCRIPTION[0m[m
        List  information  about  the FILEs (the current directory by default).[m
-       Sort entries alphabetically if none of [1m-cftuvSUX[0m nor [1m--sort[0m  is  speci‐[m
+       Sort entries alphabetically if none of [1m-cftuvSUX[0m nor [1m--sort[0m  is  speciâ€[m
        fied.[m
 [m
        Mandatory  arguments  to  long  options are mandatory for short options[m
@@ -324,7 +327,8 @@ Linux jacob-Vostro-3478 4.4.0-142-generic #168-Ubuntu SMP Wed Jan 16 21:00:45 UT
               do not list implied . and ..[m
 [m
        [1m--author[0m[m
-[7m Manual page ls(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ man
+[7m Manual page ls(1) line 1 (press h for help or q to quit)[27m[K
+[K[?1l>[?1049l]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ man
 What manual page do you want?
 ]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ cat -n kk.text
      1	jacob name
@@ -336,15 +340,24 @@ sed: -e expression #1, char 2: expected \ after `a', `c' or `i'
 sed: -e expression #1, char 2: expected \ after `a', `c' or `i'
 ]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ sed '1i' k.text[Ktemp1.txt
 temp1.txt: command not found
-]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ sed li ^?[K[K[K[K[K[K[K[Ksed ’1i \\t Line 1 after tab \n Line 2  \t Line 2 \n Line 3 \n’
-sed: -e expression #1, char 1: unknown command: `�'
-]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ temp1.txtsed ’1i \\t Line 1 after tab \n Line 2  \t Line 2 \n Line 3 \n’[A]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ temp1.txt[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csed ’1i \\t Line 1 after tab \n Line 2  \t Line 2 \n Line 3 \n’ temp1.text
-sed: -e expression #1, char 1: unknown command: `�'
-]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ sed ’1i \\t Line 1 after tab \n Line 2  \t Line 2 \n Line 3 \n’ temp1.text[K[K[K[K[K[K[K[K[K[Kkk.text
-sed: -e expression #1, char 1: unknown command: `�'
-]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ sed ’1i \\t Line 1 after tab \n Line 2  \t Line 2 \n Line 3 \n’ kk.text[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kli kk.text
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ sed li ^?[K[K[K[K[K[K[K[Ksed â€™1i \\t Line 1 after tab \n Line 2 
+ \t Line 2 \n Line 3 \nâ€™
+sed: -e expression #1, char 1: unknown command: `â'
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ temp1.txtsed â€™1i \\t Line 1 after tab \n Line 2 
+ \t Line 2 \n Line 3 \nâ€™[A
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ temp1.txt[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csed â€™1i \\t Line 1 after tab \n Line 2 
+ \t Line 2 \n Line 3 \nâ€™ temp1.text
+sed: -e expression #1, char 1: unknown command: `â'
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ sed â€™1i \\t Line 1 after tab \n Line 2 
+ \t Line 2 \n Line 3 \nâ€™ temp1.text[K[K[K[K[K[K[K[K[K[Kkk.text
+sed: -e expression #1, char 1: unknown command: `â'
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ sed â€™1i \\t Line 1 after tab \n Line 2 
+ \t Line 2 \n Line 3 \nâ€™ kk.text[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kli kk.text
 sed: -e expression #1, char 2: extra characters after command
 ]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ sed li kk.text[C[1P kk.text[1P kk.text
 sed: -e expression #1, char 1: unknown command: `k'
@@ -688,8 +701,11 @@ root      8608     2  0 14:47 ?        00:00:00 [kworker/0:0]
 jacob     8616  4740  0 14:48 pts/18   00:00:00 ps -ef
 ]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ kill
 kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
-]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ kill ps -ef[Kifuppingtcpdump -i eth0[2Pdhclient usb0[5Piwconfig[3Prouteifconfig eth0 192.168.0.20-a[K[7Pfreesed 'li' kk.text[K-e  kk.text[3P kk.textli kk.text’1i \\t Line 1 after tab \n Line 2  \t Line 2 \n Line 3 \n’ kk.texttemp1.text[3Pkk.text[A]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ [C[C[C[Cli kk.text[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2P kk.text-e  kk.text[7P'li' kk.textfree[Kifconfig -aeth0 192.168.0.20route[Kiwconfigdhclient usb0tcpdump -i eth0ping[Kifup[2Pps -ef[1Pkill [Kps
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ kill ps -ef[Kifuppingtcpdump -i eth0[2Pdhclient usb0[5Piwconfig[3Prouteifconfig eth0 192.168.0.20-a[K[7Pfreesed 'li' kk.text[K-e  kk.text[3P kk.textli kk.textâ€™1i \\t Line 1 after tab \n Line 2 
+ \t Line 2 \n Line 3 \nâ€™ kk.texttemp1.text[3Pkk.text[A
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ [C[C[C[Cli kk.text[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2P kk.text-e  kk.text[7P'li' kk.textfree[Kifconfig -aeth0 192.168.0.20route[Kiwconfigdhclient usb0tcpdump -i eth0ping[Kifup[2Pps -ef[1Pkill [Kps
   PID TTY          TIME CMD
  4740 pts/18   00:00:00 bash
  8625 pts/18   00:00:00 ps
