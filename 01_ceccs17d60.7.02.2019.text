@@ -93,12 +93,6 @@ biodata  no1
 ]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ sort -n biodata
 D.O.B:17-01-1996
 name:jacob mathew
-]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ sort nk7 no1
-sort: cannot read: nk7: No such file or directory
-]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ sort -nk7 no1
-1.jacob
-2.tinto
-3.varkey
 ]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ sort -rnk7 no1
 3.varkey
 2.tinto
@@ -128,12 +122,6 @@ jjj
 1.jacob
 2.tinto
 3.varkey
-]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ cut f1 [K=[K-3
-cut: you must specify a list of bytes, characters, or fields
-Try 'cut --help' for more information.
-]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ cyt [K[K[Kut -- help
-cut: you must specify a list of bytes, characters, or fields
-Try 'cut --help' for more information.
 ]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ cyt[K[Kut -b 12[K no1
 1
 2
@@ -183,27 +171,7 @@ cut: 2: No such file or directory
 1.jacob
 2.tinto
 3.varkey
-]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ cut -f  2 no1[Kcat abc.text
-cat: abc.text: No such file or directory
-]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ jacob mathew
-jacob: command not found
-]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ jacob mathewcat abc.textut -f  2 no1[1Pat abc.text>abc.text
-ja  Jacob  Mathew
-mathew        Tc mathai         thoppipeedikayil^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D                                                          lpeedikayil]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ cat >abc.text[1Pjacob mathewcat abc.textut -f  2 no1[1@1[C[C[C[C[C[C[1P[C[C[C[C[C[C[1Pat abc.textjacob mathewcat >abc.text[Kcat =[K-f 2 an[Kbc.text
-cat: invalid option -- 'f'
-Try 'cat --help' for more information.
-]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ cat -f 2 abc.text[1P abc.text[1Pabc.text[1Pbc.text[1Pbc.text1bc.text bc.textabc.text
-cat: invalid option -- 'f'
-Try 'cat --help' for more information.
-]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ cat -f1 abc.text
-cat: invalid option -- 'f'
-Try 'cat --help' for more information.
-]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ cat -f1 abc.text[1Pabc.text[1Pabc.text abc.text1abc.text abc.text
-cat: invalid option -- 'f'
-Try 'cat --help' for more information.
-]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ cat -f 1 abc.text[K[K[K[K[K[K[K[Kno1
-cat: invalid option -- 'f'
-Try 'cat --help' for more information.
+
 ]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ cat -f 1 no1[1P[1@u[C[1@t[1P
 1.jacob
 2.tinto
@@ -231,21 +199,12 @@ thampi
 ]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ join k.text1 kk.text[1P kk.text
 jacob name name
 address
-]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ grep kk,text[K[K[K[K[K.text
-www]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ grep kk.text[7@join k.text[C[C[C[C[C[C[C[C[7Psor[C[C[C[C[C[C[C[C[C[1P.textcat>kk.text[1P.textk.textsort k.textk.text[7@join k.tex[C[C[C[C[C[C[C[C[C[7Pgrep[C[C[C[C[C[C[C[C[Kcat kk text
-cat: kk: No such file or directory
-cat: text: No such file or directory
 ]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ cat kk text[1Ptext.text
 jacob name
 address
 thampi
-]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ cat kk.text[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[Kgrep -c
-Usage: grep [OPTION]... PATTERN [FILE]...
-Try 'grep --help' for more information.
 ]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ grep "name" kk.text
 jacob name
-]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ grep -c kk.text
-^C
 ]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ grep -c kk.text[C kk.text" kk.textb kk.text[1P kk.textn kk.text" kk.text[C kk.text
 1
 ]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ grep -c "n"  kk.text[1@a[1@m[1@e
@@ -257,8 +216,6 @@ jacob name
 address
 ]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ grep -w "name [K" k.text
 jacob name
-]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ gerp[K[K[Krep -r :[K"nam" k.ext
-grep: k.ext: No such file or directory
 ]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ grep -r "nam" k.exttext
 jacob name
 ]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ grep ac[K[K"anc[K[Kbc\\[K|xyz" kk.text
@@ -334,21 +291,7 @@ root         8     2  0 Feb07 ?        00:00:00 [rcu_bh]
 root         9     2  0 Feb07 ?        00:00:00 [migration/0]
 root        10     2  0 Feb07 ?        00:00:00 [watchdog/0]
 root        11     2  0 Feb07 ?        00:00:00 [watchdog/1]
-root        12     2  0 Feb07 ?        00:00:00 [migration/1]
-root        13     2  0 Feb07 ?        00:00:00 [ksoftirqd/1]
-root        15     2  0 Feb07 ?        00:00:00 [kworker/1:0H]
-root        16     2  0 Feb07 ?        00:00:00 [watchdog/2]
-root        17     2  0 Feb07 ?        00:00:00 [migration/2]
-root        18     2  0 Feb07 ?        00:00:00 [ksoftirqd/2]
-
-root       183     2  0 Feb07 ?        00:00:00 [bioset]
-root       185     2  0 Feb07 ?        00:00:00 [bioset]
-root       277     2  0 Feb07 ?        00:00:00 [bioset]
-root       303     2  0 Feb07 ?        00:00:00 [kworker/0:1H]
-root       304     2  0 Feb07 ?        00:00:00 [kworker/4:1H]
-root       306     2  0 Feb07 ?        00:00:00 [jbd2/sda3-8]
-root       307     2  0 Feb07 ?        00:00:00 [ext4-rsv-conver]
-root       336     2  0 Feb07 ?        00:00:00 [kworker/1:1H]
+root     2  0 Feb07 ?        00:00:00 [kworker/1:1H]
 root       341     2  0 Feb07 ?        00:00:00 [kauditd]
 root       343  
 nobody    8586  2289  0 14:46 ?        00:00:00 /usr/sbin/dnsmasq --no-resolv --
