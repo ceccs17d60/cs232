@@ -1,148 +1,0 @@
-Script started on Thursday 28 March 2019 03:36:12 AM +0530
-]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ sftp csd[K[K[K[K[K[K[K[Ksftp csd60@192.168.0.30
-The authenticity of host '192.168.0.30 (192.168.0.30)' can't be established.
-ECDSA key fingerprint is d8:e8:3a:9a:e6:9d:37:9c:e9:3b:8d:e3:eb:eb:36:a0.
-Are you sure you want to continue connecting (yes/no)? yes
-Warning: Permanently added '192.168.0.30' (ECDSA) to the list of known hosts.
-.
-              |
-.  .    . .-. | .-..-. .--.--. .-.
- \  \  / (.-' |(  (   )|  |  |(.-'
-  `' `'   `--'` `-'`-' '  '  ` `--'
-csd60@192.168.0.30's password: 
-Connection closed by 192.168.0.30
-Couldn't read packet: Connection reset by peer
-]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ sftp csd60@192.168.0.30
-.
-              |
-.  .    . .-. | .-..-. .--.--. .-.
- \  \  / (.-' |(  (   )|  |  |(.-'
-  `' `'   `--'` `-'`-' '  '  ` `--'
-csd60@192.168.0.30's password: 
-Permission denied, please try again.
-csd60@192.168.0.30's password: 
-Permission denied, please try again.
-csd60@192.168.0.30's password: 
-Permission denied (publickey,password).
-Couldn't read packet: Connection reset by peer
-]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ sftp csd60@192.168.0.30
-.
-              |
-.  .    . .-. | .-..-. .--.--. .-.
- \  \  / (.-' |(  (   )|  |  |(.-'
-  `' `'   `--'` `-'`-' '  '  ` `--'
-csd60@192.168.0.30's password: 
-Permission denied, please try again.
-csd60@192.168.0.30's password: 
-]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ sftp csd60@192.168.0.30esd60@192.168.0.30csd60@192.168.0.30csd60@192.168.0.30[C[C1d60@192.168.0.307d60@192.168.0.30
-.
-              |
-.  .    . .-. | .-..-. .--.--. .-.
- \  \  / (.-' |(  (   )|  |  |(.-'
-  `' `'   `--'` `-'`-' '  '  ` `--'
-ceccs17d60@192.168.0.30's password: 
-Permission denied, please try again.
-ceccs17d60@192.168.0.30's password: 
-Permission denied, please try again.
-ceccs17d60@192.168.0.30's password: 
-Permission denied (publickey,password).
-Couldn't read packet: Connection reset by peer
-]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ sftp ceccs17d60@192.168.0.30
-.
-              |
-.  .    . .-. | .-..-. .--.--. .-.
- \  \  / (.-' |(  (   )|  |  |(.-'
-  `' `'   `--'` `-'`-' '  '  ` `--'
-ceccs17d60@192.168.0.30's password: 
-Permission denied, please try again.
-ceccs17d60@192.168.0.30's password: 
-Connection closed by 192.168.0.30
-Couldn't read packet: Connection reset by peer
-]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ sftp cs17[K[K[K[K[K[K[K[K[Ksftp cs17d60@192.168.0.30
-.
-              |
-.  .    . .-. | .-..-. .--.--. .-.
- \  \  / (.-' |(  (   )|  |  |(.-'
-  `' `'   `--'` `-'`-' '  '  ` `--'
-cs17d60@192.168.0.30's password: 
-Connected to 192.168.0.30.
-sftp> put<abc.text>
-Invalid command.
-sftp> put<abc.text>
-Invalid command.
-sftp> put<abc.text>[Paa[1@ aabc.text>[K
-Uploading abc.text to /home/cs17d60/abc.text
-abc.text                                        0%    0     0.0KB/s   --:-- ETAabc.text                                      100%   13     0.0KB/s   00:00    
-sftp> get aa[Kbc.text
-Fetching /home/cs17d60/abc.text to abc.text
-/home/cs17d60/abc.text                          0%    0     0.0KB/s   --:-- ETA/home/cs17d60/abc.text                        100%   13     0.0KB/s   00:00    
-sftp> pwd
-Remote working directory: /home/cs17d60
-sftp> ls
-abc.text            examples.desktop    
-sftp> cat abc.text
-Invalid command.
-sftp> exit
-]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ sftp cs17d60@192.168.0.30eccs17d60@192.168.0.30[5Psd60@192.168.0.30[3Pcat s2/s2_result.txt1/s1_result.txt[12Pd task1ls[Kcd task1at s1/s1_result.txt[12Pd task1ls[Kcat s1/s1_result.txtd ..[K./a.outgcc compute_gpa.c./ compute_gpa.outa.out[K a.outcd compute_gpa[6Ptask1[1Phariman ftpsudo apt-get install libatomic1man get[9Psearch libatomic1[Kinstall libatomic1man get[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cman ftp[Kcd haritask1compute_gpa[6P./ a.out[1Pa.out compute_gpa.out[1Pgcc compute_gpa.c[10P./a.out[2Pcd ..at s1/s1_result.txtls[Kcd task1at s1/s1_result.txt2/s2_result.txtsftp csd60@192.168.0.30[3Pcat s2/s2_result.txtsftp csd60@192.168.0.30eccs17d60@192.168.0.30[3Ps17d60@192.168.0.30eccs17d60@192.168.0.30[3Ps17d60@192.168.0.30
-.
-              |
-.  .    . .-. | .-..-. .--.--. .-.
- \  \  / (.-' |(  (   )|  |  |(.-'
-  `' `'   `--'` `-'`-' '  '  ` `--'
-cs17d60@192.168.0.30's password: 
-Connected to 192.168.0.30.
-sftp> ls
-abc.text            examples.desktop    
-sftp> pwd
-Remote working directory: /home/cs17d60
-sftp> ls
-abc.text            examples.desktop    
-sftp> cd
-You must specify a path after a cd command.
-sftp> cd ..
-sftp> ls
-ask       cec       cs17d00   cs17d01   cs17d02   cs17d03   cs17d04   cs17d05   
-cs17d06   cs17d07   cs17d08   cs17d09   cs17d10   cs17d11   cs17d12   cs17d13   
-cs17d14   cs17d15   cs17d16   cs17d17   cs17d18   cs17d19   cs17d20   cs17d21   
-cs17d22   cs17d23   cs17d24   cs17d25   cs17d26   cs17d27   cs17d28   cs17d29   
-cs17d30   cs17d31   cs17d32   cs17d33   cs17d34   cs17d35   cs17d36   cs17d37   
-cs17d38   cs17d39   cs17d40   cs17d41   cs17d42   cs17d43   cs17d44   cs17d45   
-cs17d46   cs17d47   cs17d48   cs17d49   cs17d50   cs17d51   cs17d52   cs17d53   
-cs17d54   cs17d55   cs17d56   cs17d57   cs17d58   cs17d59   cs17d60   cs17d61   
-cs17d62   hari      ieeecec   
-sftp> cd cs
-cs17d00/  cs17d01/  cs17d02/  cs17d03/  cs17d04/  cs17d05/  cs17d06/  cs17d07/  
-cs17d08/  cs17d09/  cs17d10/  cs17d11/  cs17d12/  cs17d13/  cs17d14/  cs17d15/  
-cs17d16/  cs17d17/  cs17d18/  cs17d19/  cs17d20/  cs17d21/  cs17d22/  cs17d23/  
-cs17d24/  cs17d25/  cs17d26/  cs17d27/  cs17d28/  cs17d29/  cs17d30/  cs17d31/  
-cs17d32/  cs17d33/  cs17d34/  cs17d35/  cs17d36/  cs17d37/  cs17d38/  cs17d39/  
-cs17d40/  cs17d41/  cs17d42/  cs17d43/  cs17d44/  cs17d45/  cs17d46/  cs17d47/  
-cs17d48/  cs17d49/  cs17d50/  cs17d51/  cs17d52/  cs17d53/  cs17d54/  cs17d55/  
-cs17d56/  cs17d57/  cs17d58/  cs17d59/  cs17d60/  cs17d61/  cs17d62/  
-[Ksftp> cd cs17d60
-sftp> pwds[K
-Remote working directory: /home/cs17d60
-sftp> put -r jj
-Uploading jj/ to /home/cs17d60/jj
-jj/ceccs17d60.07.02.2019Ls cmnd1.txt            0%    0     0.0KB/s   --:-- ETAjj/ceccs17d60.07.02.2019Ls cmnd1.txt          100%  549     0.5KB/s   00:00    
-jj/17d60.07.02.2019.txt                         0%    0     0.0KB/s   --:-- ETAjj/17d60.07.02.2019.txt                       100%   10KB  10.0KB/s   00:00    
-jj/ceccs17d60.28.03.2019.text                   0%    0     0.0KB/s   --:-- ETAjj/ceccs17d60.28.03.2019.text                 100% 4096     4.0KB/s   00:00    
-sftp> ls
-abc.text            examples.desktop    jj                  
-sftp> cat jj
-Invalid command.
-sftp> cd jj
-sftp> ls
-17d60.07.02.2019.txt                    ceccs17d60.07.02.2019Ls cmnd1.txt       
-ceccs17d60.28.03.2019.text              
-sftp> get 17d60.07.02.2019.text[K[K[Kxt
-Fetching /home/cs17d60/jj/17d60.07.02.2019.txt to 17d60.07.02.2019.txt
-/home/cs17d60/jj/17d60.07.02.2019.txt           0%    0     0.0KB/s   --:-- ETA/home/cs17d60/jj/17d60.07.02.2019.txt         100%   10KB  10.0KB/s   00:00    
-sftp> get 17d60.07.02.2019.txt
-Fetching /home/cs17d60/jj/17d60.07.02.2019.txt to 17d60.07.02.2019.txt
-/home/cs17d60/jj/17d60.07.02.2019.txt           0%    0     0.0KB/s   --:-- ETA/home/cs17d60/jj/17d60.07.02.2019.txt         100%   10KB  10.0KB/s   00:00    
-sftp> exit
-]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ exit
-exit
-
-Script done on Thursday 28 March 2019 04:21:23 AM +0530
