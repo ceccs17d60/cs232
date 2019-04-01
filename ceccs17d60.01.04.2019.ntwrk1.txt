@@ -1,0 +1,56 @@
+Script started on 2019-04-01 10:30:23+0530
+]0;jacob@jacob-Vostro-3478: ~[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~[00m$ exitsudo ifconfig enp2s0 127.0.0.1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cifconfig [Kp addr showfconfig enp2s0[K enp2s0[K enp2s0[3Pp addr show[3Pfconfig 
+enp2s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 127.0.0.1  netmask 255.0.0.0  broadcast 127.255.255.255
+        ether 54:48:10:d0:81:10  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 483  bytes 81262 (81.2 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 4840  bytes 421729 (421.7 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 4840  bytes 421729 (421.7 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+]0;jacob@jacob-Vostro-3478: ~[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~[00m$ ifconfig enp2s0
+enp2s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 127.0.0.1  netmask 255.0.0.0  broadcast 127.255.255.255
+        ether 54:48:10:d0:81:10  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 483  bytes 81262 (81.2 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+]0;jacob@jacob-Vostro-3478: ~[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~[00m$ ifconfig up[K[Kenp2s0 up
+SIOCSIFFLAGS: Operation not permitted
+]0;jacob@jacob-Vostro-3478: ~[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~[00m$ ifconfig enp2s0 up[1@s[1@u[1@d[1@o[1@ [1@ 
+[sudo] password for jacob: *********         
+]0;jacob@jacob-Vostro-3478: ~[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~[00m$ sudo  ifconfig enp2s0 up[K[K[K[Ks0[K[K0 [Kifconfig
+enp2s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 127.0.0.1  netmask 255.0.0.0  broadcast 127.255.255.255
+        ether 54:48:10:d0:81:10  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 483  bytes 81262 (81.2 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 4960  bytes 431449 (431.4 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 4960  bytes 431449 (431.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+]0;jacob@jacob-Vostro-3478: ~[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~[00m$ ifconfig enp2s0 127.0.01[K.1[1@s[1@u[1@d[1@o[1@ 
+]0;jacob@jacob-Vostro-3478: ~[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~[00m$ sudo ifconfig enp2so [K[K0 dowm[Kn
+]0;jacob@jacob-Vostro-3478: ~[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2019-04-01 10:32:43+0530
