@@ -1,0 +1,32 @@
+Script started on 2019-04-01 11:45:10+0530
+]0;jacob@jacob-Vostro-3478: ~[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~[00m$ rsync -d student rsync://cs17d60/student
+rsync: getaddrinfo: cs17d60 873: Name or service not known
+rsync error: error in socket IO (code 10) at clientserver.c(125) [sender=3.1.2]
+]0;jacob@jacob-Vostro-3478: ~[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~[00m$ rsync -d student rsync://cs17d60/student[K[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscript ceccs17d60.01.04.2019.rsync.text[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Prsync -d student rsync://cs17d60/student[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Krsync -a student cs17d60@14.139.189.217:~/home/cs17d60
+
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d60@14.139.189.217's password: 
+rsync: mkdir "/home/cs17d60/home/cs17d60" failed: No such file or directory (2)
+rsync error: error in file IO (code 11) at main.c(674) [Receiver=3.1.1]
+]0;jacob@jacob-Vostro-3478: ~[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~[00m$ rsync -a student cs17d60@14.139.189.217:~/home/cs17d60[1P/home/cs17d60
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d60@14.139.189.217's password: 
+^[[B]0;jacob@jacob-Vostro-3478: ~[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~[00m$ rsync -a student cs17d60@14.139.189.217:/home/cs17d60
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d60@14.139.189.217's password: 
+]0;jacob@jacob-Vostro-3478: ~[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2019-04-01 11:47:05+0530
