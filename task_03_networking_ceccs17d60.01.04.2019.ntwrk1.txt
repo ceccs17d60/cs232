@@ -1,5 +1,6 @@
 Script started on 2019-04-01 10:30:23+0530
-]0;jacob@jacob-Vostro-3478: ~[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~[00m$ exitsudo ifconfig enp2s0 127.0.0.1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cifconfig [Kp addr showfconfig enp2s0[K enp2s0[K enp2s0[3Pp addr show[3Pfconfig 
+]0;jacob@jacob-Vostro-3478: ~[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~[00m$ exitsudo ifconfig enp2s0 127.0.0.1
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cifconfig [Kp addr showfconfig enp2s0[K enp2s0[K enp2s0[3Pp addr show[3Pfconfig 
 enp2s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet 127.0.0.1  netmask 255.0.0.0  broadcast 127.255.255.255
         ether 54:48:10:d0:81:10  txqueuelen 1000  (Ethernet)
