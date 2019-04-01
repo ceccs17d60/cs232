@@ -1,0 +1,63 @@
+Script started on Thursday 28 March 2019 06:17:10 AM IST
+]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ rsync -d[Ka ab rsync://^?[K[K/cs17dba[K[K60@[1P[1@d[1P[C[1P[1@-[1@d[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C192.168.0.30/test
+^Crsync error: received SIGINT, SIGTERM, or SIGHUP (code 20) at rsync.c(549) [sender=3.0.9]
+]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ rsync -d ab rsync://cs17d60@192.168.0.30/test^[//cs17d60@192.168.0.30/test[//cs17d60@192.168.0.30/testC//cs17d60@192.168.0.30/test[1P//cs17d60@192.168.0.30/test[1P//cs17d60@192.168.0.30/test[2P//cs17d60@192.168.0.30/test[1P//cs17d60@192.168.0.30/test[1P//cs17d60@192.168.0.30/test[1P//cs17d60@192.168.0.30/test[1P//cs17d60@192.168.0.30/test[1P//cs17d60@192.168.0.30/test[1P//cs17d60@192.168.0.30/test[C[C[1Pcs17d60@192.168.0.30/test[1Pcs17d60@192.168.0.30/test[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K`[K`^?~/[C[C[2P~/[1P~/
+]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ rsync -d ab cs17d60@192.168.0.30~/[1P[1@a
+]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ cd[K[Kmkdir[K[K[K[K[Kgedit a.text
+]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ gedit a.text
+]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ gedit a.textrsync -a ab cs17d60@192.168.0.30~/[1P cs17d60@192.168.0.30~/[C[1@/[1@D[1@e[1@s[1@k[1@t[1@o[1@p[1@/[C. cs17d60@192.168.0.30~/t cs17d60@192.168.0.30~/e cs17d60@192.168.0.30~/x cs17d60@192.168.0.30~/t cs17d60@192.168.0.30~/
+rsync: change_dir "/Desktop" failed: No such file or directory (2)
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1070) [sender=3.0.9]
+]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ rsync -a /Desktop/a.text cs17d60@192.168.0.30~/[1P[1P[1P[1P[1P[1P[1P[1P
+rsync: link_stat "/a.text" failed: No such file or directory (2)
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1070) [sender=3.0.9]
+]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ rsync -a /a.text cs17d60@192.168.0.30~/[1P
+]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ rsync -a a.text cs17d60@192.168.0.30~/[1@/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8@Desktop/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgedit a.text[Krsync -a ab cs17d60@192.168.0.30~/d[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crsync://cs17d60@192.168.0.30/test[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pscp jk -r cs17d60@192.168.0.30:~cs17d60/test[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cj[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cudo su[Kcp jj -r cs17d60@192.168.0.30:~cs17d60/test[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2P-r  cs17d60@192.168.0.30:/home/cs17d60[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cjj -r cs17d60@192.168.0.30:~cs17d60/test[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2P-r  cs17d60@192.168.0.30:/home/cs17d60[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pript ceccs17d60.28.01.2019.scp.text[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pudo apt-get upgrade firefoxcript ceccs17d60.28.01.2019.scp.text[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Pftp cs17d60@192.168.0.30jj cs17d60@192.168.0.30ceccs17d60@192.168.0.30jj cs17d60@192.168.0.30ceccs17d60@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+ceccs17d60@192.168.0.30's password: 
+Permission denied, please try again.
+ceccs17d60@192.168.0.30's password: 
+]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ sftp ceccs17d60@192.168.0.30[1Ps17d60@192.168.0.30[1Pcs17d60@192.168.0.30[1Ps17d60@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d60@192.168.0.30's password: 
+Permission denied, please try again.
+cs17d60@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> k[Kls
+ab.txt              abc.text            c.text              examples.desktop    
+jj                  test                
+sftp> ^Cexit
+exit
+]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ 
+]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ sftp cs17d60@192.168.0.30eccs17d60@192.168.0.30rsync -a a.text cs17d60@192.168.0.30~/[1@/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@.
+]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ rsync -a ./a.text cs17d60@192.168.0.30~/:~/
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d60@192.168.0.30's password: 
+]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ rsync -a ./a.text cs17d60@192.168.0.30:~/[1P~/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15Psftp cs17d60@192.168.0.30eccs17d60@192.168.0.30[3Ps17d60@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d60@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls
+a.text              ab.txt              abc.text            c.text              
+examples.desktop    jj                  test                
+sftp> exiy[Kt
+]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ exit
+exit
+
+Script done on Thursday 28 March 2019 06:29:26 AM IST
