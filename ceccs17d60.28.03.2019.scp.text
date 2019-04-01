@@ -1,0 +1,496 @@
+Script started on Thursday 28 March 2019 05:16:50 AM +0530
+]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ 
+]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ scp us[K[Kcs17d60@192.168.0.30
+usage: scp [-12346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ man scp
+[?1049h[?1h=SCP(1)                    BSD General Commands Manual                   SCP(1)[m
+[m
+[1mNAME[0m[m
+     [1mscp[0m — secure copy (remote file copy program)[m
+[m
+[1mSYNOPSIS[0m[m
+     [1mscp[0m [[1m-12346BCpqrv[0m] [[1m-c[0m [4mcipher[24m] [[1m-F[0m [4mssh_config[24m] [[1m-i[0m [4midentity_file[24m][m
+         [[1m-l[0m [4mlimit[24m] [[1m-o[0m [4mssh_option[24m] [[1m-P[0m [4mport[24m] [[1m-S[0m [4mprogram[24m][m
+         [[[4muser[24m@][4mhost1[24m:][4mfile1[24m [4m...[24m [[[4muser[24m@][4mhost2[24m:][4mfile2[24m[m
+[m
+[1mDESCRIPTION[0m[m
+     [1mscp[0m copies files between hosts on a network.  It uses ssh(1) for data[m
+     transfer, and uses the same authentication and provides the same security[m
+     as ssh(1).  Unlike rcp(1), [1mscp[0m will ask for passwords or passphrases if[m
+     they are needed for authentication.[m
+[m
+     File names may contain a user and host specification to indicate that the[m
+     file is to be copied to/from that host.  Local file names can be made[m
+     explicit using absolute or relative pathnames to avoid [1mscp[0m treating file[m
+     names containing ‘:’ as host specifiers.  Copies between two remote hosts[m
+     are also permitted.[m
+[m
+     The options are as follows:[m
+[7m Manual page scp(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page scp(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page scp(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page scp(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page scp(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page scp(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page scp(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page scp(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page scp(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page scp(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page scp(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page scp(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page scp(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     [1m-1[0m      Forces [1mscp[0m to use protocol 1.[m
+[7m Manual page scp(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     [1m-2[0m      Forces [1mscp[0m to use protocol 2.[m
+[7m Manual page scp(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     [1m-3[0m      Copies between two remote hosts are transferred through the local[m
+[7m Manual page scp(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             host.  Without this option the data is copied directly between[m
+[7m Manual page scp(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             the two remote hosts.  Note that this option disables the[m
+[7m Manual page scp(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             progress meter.[m
+[7m Manual page scp(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM         [[[4muser[24m@][4mhost1[24m:][4mfile1[24m [4m...[24m [[[4muser[24m@][4mhost2[24m:][4mfile2[24m[m
+[24;1H[K[7m Manual page scp(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM         [[1m-l[0m [4mlimit[24m] [[1m-o[0m [4mssh_option[24m] [[1m-P[0m [4mport[24m] [[1m-S[0m [4mprogram[24m][m
+[24;1H[K[7m Manual page scp(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM     [1mscp[0m [[1m-12346BCpqrv[0m] [[1m-c[0m [4mcipher[24m] [[1m-F[0m [4mssh_config[24m] [[1m-i[0m [4midentity_file[24m][m
+[24;1H[K[7m Manual page scp(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             host.  Without this option the data is copied directly between[m
+[7m Manual page scp(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             the two remote hosts.  Note that this option disables the[m
+[7m Manual page scp(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             progress meter.[m
+[7m Manual page scp(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     [1m-4[0m      Forces [1mscp[0m to use IPv4 addresses only.[m
+[7m Manual page scp(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     [1m-6[0m      Forces [1mscp[0m to use IPv6 addresses only.[m
+[7m Manual page scp(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     [1m-B[0m      Selects batch mode (prevents asking for passwords or[m
+[7m Manual page scp(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             passphrases).[m
+[7m Manual page scp(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     [1m-C[0m      Compression enable.  Passes the [1m-C[0m flag to ssh(1) to enable com‐[m
+[7m Manual page scp(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             pression.[m
+[7m Manual page scp(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     [1m-c[0m [4mcipher[24m[m
+[7m Manual page scp(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             Selects the cipher to use for encrypting the data transfer.  This[m
+[7m Manual page scp(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             option is directly passed to ssh(1).[m
+[7m Manual page scp(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     [1m-F[0m [4mssh_config[24m[m
+[7m Manual page scp(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             Specifies an alternative per-user configuration file for [1mssh[0m.[m
+[7m Manual page scp(1) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             This option is directly passed to ssh(1).[m
+[7m Manual page scp(1) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     [1m-i[0m [4midentity_file[24m[m
+[7m Manual page scp(1) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             Selects the file from which the identity (private key) for public[m
+[7m Manual page scp(1) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             key authentication is read.  This option is directly passed to[m
+[7m Manual page scp(1) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             ssh(1).[m
+[7m Manual page scp(1) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     [1m-l[0m [4mlimit[24m[m
+[7m Manual page scp(1) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             Limits the used bandwidth, specified in Kbit/s.[m
+[7m Manual page scp(1) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     [1m-o[0m [4mssh_option[24m[m
+[7m Manual page scp(1) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             Can be used to pass options to [1mssh[0m in the format used in[m
+[7m Manual page scp(1) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             ssh_config(5).  This is useful for specifying options for which[m
+[7m Manual page scp(1) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             there is no separate [1mscp[0m command-line flag.  For full details of[m
+[7m Manual page scp(1) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             the options listed below, and their possible values, see[m
+[7m Manual page scp(1) line 42 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             ssh_config(5).[m
+[7m Manual page scp(1) line 43 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 44 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   AddressFamily[m
+[7m Manual page scp(1) line 45 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   BatchMode[m
+[7m Manual page scp(1) line 46 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   BindAddress[m
+[7m Manual page scp(1) line 47 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   ChallengeResponseAuthentication[m
+[7m Manual page scp(1) line 48 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   CheckHostIP[m
+[7m Manual page scp(1) line 49 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   Cipher[m
+[7m Manual page scp(1) line 50 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   Ciphers[m
+[7m Manual page scp(1) line 51 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   Compression[m
+[7m Manual page scp(1) line 52 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   CompressionLevel[m
+[7m Manual page scp(1) line 53 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   ConnectionAttempts[m
+[7m Manual page scp(1) line 54 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   ConnectTimeout[m
+[7m Manual page scp(1) line 55 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   ControlMaster[m
+[7m Manual page scp(1) line 56 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   ControlPath[m
+[7m Manual page scp(1) line 57 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   GlobalKnownHostsFile[m
+[7m Manual page scp(1) line 58 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   GSSAPIAuthentication[m
+[7m Manual page scp(1) line 59 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   GSSAPIDelegateCredentials[m
+[7m Manual page scp(1) line 60 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   HashKnownHosts[m
+[7m Manual page scp(1) line 61 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   Host[m
+[7m Manual page scp(1) line 62 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   HostbasedAuthentication[m
+[7m Manual page scp(1) line 63 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   HostKeyAlgorithms[m
+[7m Manual page scp(1) line 64 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   HostKeyAlias[m
+[7m Manual page scp(1) line 65 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   HostName[m
+[7m Manual page scp(1) line 66 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   IdentityFile[m
+[7m Manual page scp(1) line 67 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   IdentitiesOnly[m
+[7m Manual page scp(1) line 68 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   IPQoS[m
+[7m Manual page scp(1) line 69 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   KbdInteractiveDevices[m
+[7m Manual page scp(1) line 70 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   KexAlgorithms[m
+[7m Manual page scp(1) line 71 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   LogLevel[m
+[7m Manual page scp(1) line 72 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   MACs[m
+[7m Manual page scp(1) line 73 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   NoHostAuthenticationForLocalhost[m
+[7m Manual page scp(1) line 74 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   NumberOfPasswordPrompts[m
+[7m Manual page scp(1) line 75 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   PasswordAuthentication[m
+[7m Manual page scp(1) line 76 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   PKCS11Provider[m
+[7m Manual page scp(1) line 77 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   Port[m
+[7m Manual page scp(1) line 78 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   PreferredAuthentications[m
+[7m Manual page scp(1) line 79 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   Protocol[m
+[7m Manual page scp(1) line 80 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   ProxyCommand[m
+[7m Manual page scp(1) line 81 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   PubkeyAuthentication[m
+[7m Manual page scp(1) line 82 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   RekeyLimit[m
+[7m Manual page scp(1) line 83 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   RhostsRSAAuthentication[m
+[7m Manual page scp(1) line 84 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   RSAAuthentication[m
+[7m Manual page scp(1) line 85 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   SendEnv[m
+[7m Manual page scp(1) line 86 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   ServerAliveInterval[m
+[7m Manual page scp(1) line 87 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   ServerAliveCountMax[m
+[7m Manual page scp(1) line 88 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   StrictHostKeyChecking[m
+[7m Manual page scp(1) line 89 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   TCPKeepAlive[m
+[7m Manual page scp(1) line 90 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   UsePrivilegedPort[m
+[7m Manual page scp(1) line 91 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   IdentitiesOnly[m
+[24;1H[K[7m Manual page scp(1) line 90 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   IdentityFile[m
+[24;1H[K[7m Manual page scp(1) line 89 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   HostName[m
+[24;1H[K[7m Manual page scp(1) line 88 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   StrictHostKeyChecking[m
+[7m Manual page scp(1) line 89 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   TCPKeepAlive[m
+[7m Manual page scp(1) line 90 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   UsePrivilegedPort[m
+[7m Manual page scp(1) line 91 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   User[m
+[7m Manual page scp(1) line 92 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   UserKnownHostsFile[m
+[7m Manual page scp(1) line 93 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   VerifyHostKeyDNS[m
+[7m Manual page scp(1) line 94 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 95 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     [1m-P[0m [4mport[24m[m
+[7m Manual page scp(1) line 96 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             Specifies the port to connect to on the remote host.  Note that[m
+[7m Manual page scp(1) line 97 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             this option is written with a capital ‘P’, because [1m-p[0m is already[m
+[7m Manual page scp(1) line 98 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             reserved for preserving the times and modes of the file in[m
+[7m Manual page scp(1) line 99 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             rcp(1).[m
+[7m Manual page scp(1) line 100 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 101 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     [1m-p[0m      Preserves modification times, access times, and modes from the[m
+[7m Manual page scp(1) line 102 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             original file.[m
+[7m Manual page scp(1) line 103 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 104 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     [1m-q[0m      Quiet mode: disables the progress meter as well as warning and[m
+[7m Manual page scp(1) line 105 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             diagnostic messages from ssh(1).[m
+[7m Manual page scp(1) line 106 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 107 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     [1m-r[0m      Recursively copy entire directories.  Note that [1mscp[0m follows sym‐[m
+[7m Manual page scp(1) line 108 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             bolic links encountered in the tree traversal.[m
+[7m Manual page scp(1) line 109 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 110 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     [1m-S[0m [4mprogram[24m[m
+[7m Manual page scp(1) line 111 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             Name of [4mprogram[24m to use for the encrypted connection.  The program[m
+[7m Manual page scp(1) line 112 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             must understand ssh(1) options.[m
+[7m Manual page scp(1) line 113 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 114 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     [1m-v[0m      Verbose mode.  Causes [1mscp[0m and ssh(1) to print debugging messages[m
+[7m Manual page scp(1) line 115 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             about their progress.  This is helpful in debugging connection,[m
+[7m Manual page scp(1) line 116 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             authentication, and configuration problems.[m
+[7m Manual page scp(1) line 117 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 118 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mEXIT[0m [1mSTATUS[0m[m
+[7m Manual page scp(1) line 119 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     The [1mscp[0m utility exits 0 on success, and >0 if an error occurs.[m
+[7m Manual page scp(1) line 120 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 121 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mSEE[0m [1mALSO[0m[m
+[7m Manual page scp(1) line 122 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     rcp(1), sftp(1), ssh(1), ssh-add(1), ssh-agent(1), ssh-keygen(1),[m
+[7m Manual page scp(1) line 123 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     ssh_config(5), sshd(8)[m
+[7m Manual page scp(1) line 124 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 125 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mHISTORY[0m[m
+[7m Manual page scp(1) line 126 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     [1mscp[0m is based on the rcp(1) program in BSD source code from the Regents of[m
+[7m Manual page scp(1) line 127 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     the University of California.[m
+[7m Manual page scp(1) line 128 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 129 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mAUTHORS[0m[m
+[7m Manual page scp(1) line 130 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     Timo Rinne ⟨tri@iki.fi⟩[m
+[7m Manual page scp(1) line 131 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     Tatu Ylonen ⟨ylo@cs.hut.fi⟩[m
+[7m Manual page scp(1) line 132 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 133 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[KBSD                             March 28, 2019                             BSD[m
+[7m Manual page scp(1) line 134 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM     [1m-S[0m [4mprogram[24m[m
+[24;1H[K[7m Manual page scp(1) line 133/156 99% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page scp(1) line 132/156 99% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM             bolic links encountered in the tree traversal.[m
+[24;1H[K[7m Manual page scp(1) line 131/156 98% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM     [1m-r[0m      Recursively copy entire directories.  Note that [1mscp[0m follows sym‐[m
+[24;1H[K[7m Manual page scp(1) line 130/156 98% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page scp(1) line 129/156 97% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM             diagnostic messages from ssh(1).[m
+[24;1H[K[7m Manual page scp(1) line 128/156 97% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM     [1m-q[0m      Quiet mode: disables the progress meter as well as warning and[m
+[24;1H[K[7m Manual page scp(1) line 127/156 97% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page scp(1) line 126/156 95% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM             original file.[m
+[24;1H[K[7m Manual page scp(1) line 125/156 95% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM     [1m-p[0m      Preserves modification times, access times, and modes from the[m
+[24;1H[K[7m Manual page scp(1) line 124/156 95% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page scp(1) line 123/156 95% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM             rcp(1).[m
+[24;1H[K[7m Manual page scp(1) line 122/156 93% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM             reserved for preserving the times and modes of the file in[m
+[24;1H[K[7m Manual page scp(1) line 121/156 93% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM             this option is written with a capital ‘P’, because [1m-p[0m is already[m
+[24;1H[K[7m Manual page scp(1) line 120/156 93% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM             Specifies the port to connect to on the remote host.  Note that[m
+[24;1H[K[7m Manual page scp(1) line 119/156 92% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM     [1m-P[0m [4mport[24m[m
+[24;1H[K[7m Manual page scp(1) line 118/156 91% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page scp(1) line 117/156 91% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   VerifyHostKeyDNS[m
+[24;1H[K[7m Manual page scp(1) line 116/156 91% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   UserKnownHostsFile[m
+[24;1H[K[7m Manual page scp(1) line 115/156 89% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   User[m
+[24;1H[K[7m Manual page scp(1) line 114/156 88% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   UsePrivilegedPort[m
+[24;1H[K[7m Manual page scp(1) line 113/156 88% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   TCPKeepAlive[m
+[24;1H[K[7m Manual page scp(1) line 112/156 87% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   StrictHostKeyChecking[m
+[24;1H[K[7m Manual page scp(1) line 111/156 86% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   ServerAliveCountMax[m
+[24;1H[K[7m Manual page scp(1) line 110/156 85% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   ServerAliveInterval[m
+[24;1H[K[7m Manual page scp(1) line 109/156 85% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   SendEnv[m
+[24;1H[K[7m Manual page scp(1) line 108/156 84% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   RSAAuthentication[m
+[24;1H[K[7m Manual page scp(1) line 107/156 83% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   RhostsRSAAuthentication[m
+[24;1H[K[7m Manual page scp(1) line 106/156 83% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   RekeyLimit[m
+[24;1H[K[7m Manual page scp(1) line 105/156 82% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   PubkeyAuthentication[m
+[24;1H[K[7m Manual page scp(1) line 104/156 81% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   ProxyCommand[m
+[24;1H[K[7m Manual page scp(1) line 103/156 81% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   Protocol[m
+[24;1H[K[7m Manual page scp(1) line 102/156 80% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   PreferredAuthentications[m
+[24;1H[K[7m Manual page scp(1) line 101/156 79% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   Port[m
+[24;1H[K[7m Manual page scp(1) line 100/156 79% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   PKCS11Provider[m
+[24;1H[K[7m Manual page scp(1) line 99/156 79% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   PasswordAuthentication[m
+[24;1H[K[7m Manual page scp(1) line 98/156 78% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   NumberOfPasswordPrompts[m
+[24;1H[K[7m Manual page scp(1) line 97/156 76% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   NoHostAuthenticationForLocalhost[m
+[24;1H[K[7m Manual page scp(1) line 96/156 75% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   MACs[m
+[24;1H[K[7m Manual page scp(1) line 95/156 75% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   LogLevel[m
+[24;1H[K[7m Manual page scp(1) line 94/156 75% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   KexAlgorithms[m
+[24;1H[K[7m Manual page scp(1) line 93/156 74% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   KbdInteractiveDevices[m
+[24;1H[K[7m Manual page scp(1) line 92/156 74% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   IPQoS[m
+[24;1H[K[7m Manual page scp(1) line 91/156 73% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   IdentitiesOnly[m
+[24;1H[K[7m Manual page scp(1) line 90/156 73% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   IdentityFile[m
+[24;1H[K[7m Manual page scp(1) line 89/156 72% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   HostName[m
+[24;1H[K[7m Manual page scp(1) line 88/156 71% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   HostKeyAlias[m
+[24;1H[K[7m Manual page scp(1) line 87/156 71% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   HostKeyAlgorithms[m
+[24;1H[K[7m Manual page scp(1) line 86/156 70% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   HostbasedAuthentication[m
+[24;1H[K[7m Manual page scp(1) line 85/156 70% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   Host[m
+[24;1H[K[7m Manual page scp(1) line 84/156 69% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   HashKnownHosts[m
+[24;1H[K[7m Manual page scp(1) line 83/156 69% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   GSSAPIDelegateCredentials[m
+[24;1H[K[7m Manual page scp(1) line 82/156 68% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   GSSAPIAuthentication[m
+[24;1H[K[7m Manual page scp(1) line 81/156 67% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   GlobalKnownHostsFile[m
+[24;1H[K[7m Manual page scp(1) line 80/156 67% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   ControlPath[m
+[24;1H[K[7m Manual page scp(1) line 79/156 67% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   ControlMaster[m
+[24;1H[K[7m Manual page scp(1) line 78/156 66% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   ConnectTimeout[m
+[24;1H[K[7m Manual page scp(1) line 77/156 65% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   ConnectionAttempts[m
+[24;1H[K[7m Manual page scp(1) line 76/156 65% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   CompressionLevel[m
+[24;1H[K[7m Manual page scp(1) line 75/156 64% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   Compression[m
+[24;1H[K[7m Manual page scp(1) line 74/156 64% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   Ciphers[m
+[24;1H[K[7m Manual page scp(1) line 73/156 63% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   Cipher[m
+[24;1H[K[7m Manual page scp(1) line 72/156 62% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   CheckHostIP[m
+[24;1H[K[7m Manual page scp(1) line 71/156 62% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   ChallengeResponseAuthentication[m
+[24;1H[K[7m Manual page scp(1) line 70/156 61% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   BindAddress[m
+[24;1H[K[7m Manual page scp(1) line 69/156 61% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   BatchMode[m
+[24;1H[K[7m Manual page scp(1) line 68/156 60% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                   AddressFamily[m
+[24;1H[K[7m Manual page scp(1) line 67/156 60% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page scp(1) line 66/156 59% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM             ssh_config(5).[m
+[24;1H[K[7m Manual page scp(1) line 65/156 59% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM             the options listed below, and their possible values, see[m
+[24;1H[K[7m Manual page scp(1) line 64/156 58% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM             there is no separate [1mscp[0m command-line flag.  For full details of[m
+[24;1H[K[7m Manual page scp(1) line 63/156 58% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM             ssh_config(5).  This is useful for specifying options for which[m
+[24;1H[K[7m Manual page scp(1) line 62/156 57% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM             Can be used to pass options to [1mssh[0m in the format used in[m
+[24;1H[K[7m Manual page scp(1) line 61/156 57% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM     [1m-o[0m [4mssh_option[24m[m
+[24;1H[K[7m Manual page scp(1) line 60/156 56% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page scp(1) line 59/156 56% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM             Limits the used bandwidth, specified in Kbit/s.[m
+[24;1H[K[7m Manual page scp(1) line 58/156 55% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM     [1m-l[0m [4mlimit[24m[m
+[24;1H[K[7m Manual page scp(1) line 57/156 54% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page scp(1) line 56/156 54% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM             ssh(1).[m
+[24;1H[K[7m Manual page scp(1) line 55/156 53% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM             key authentication is read.  This option is directly passed to[m
+[24;1H[K[7m Manual page scp(1) line 54/156 53% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM             Selects the file from which the identity (private key) for public[m
+[24;1H[K[7m Manual page scp(1) line 53/156 52% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   ConnectionAttempts[m
+[7m Manual page scp(1) line 54/156 53% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   ConnectTimeout[m
+[7m Manual page scp(1) line 55/156 53% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   ControlMaster[m
+[7m Manual page scp(1) line 56/156 54% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   ControlPath[m
+[7m Manual page scp(1) line 57/156 54% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   GlobalKnownHostsFile[m
+[7m Manual page scp(1) line 58/156 55% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   GSSAPIAuthentication[m
+[7m Manual page scp(1) line 59/156 56% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   GSSAPIDelegateCredentials[m
+[7m Manual page scp(1) line 60/156 56% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   HashKnownHosts[m
+[7m Manual page scp(1) line 61/156 57% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   Host[m
+[7m Manual page scp(1) line 62/156 57% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   HostbasedAuthentication[m
+[7m Manual page scp(1) line 63/156 58% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   HostKeyAlgorithms[m
+[7m Manual page scp(1) line 64/156 58% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   HostKeyAlias[m
+[7m Manual page scp(1) line 65/156 59% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   HostName[m
+[7m Manual page scp(1) line 66/156 59% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   IdentityFile[m
+[7m Manual page scp(1) line 67/156 60% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   IdentitiesOnly[m
+[7m Manual page scp(1) line 68/156 60% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   IPQoS[m
+[7m Manual page scp(1) line 69/156 61% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   KbdInteractiveDevices[m
+[7m Manual page scp(1) line 70/156 61% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   KexAlgorithms[m
+[7m Manual page scp(1) line 71/156 62% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   LogLevel[m
+[7m Manual page scp(1) line 72/156 62% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   MACs[m
+[7m Manual page scp(1) line 73/156 63% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   NoHostAuthenticationForLocalhost[m
+[7m Manual page scp(1) line 74/156 64% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   NumberOfPasswordPrompts[m
+[7m Manual page scp(1) line 75/156 64% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   PasswordAuthentication[m
+[7m Manual page scp(1) line 76/156 65% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   PKCS11Provider[m
+[7m Manual page scp(1) line 77/156 65% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   Port[m
+[7m Manual page scp(1) line 78/156 66% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   PreferredAuthentications[m
+[7m Manual page scp(1) line 79/156 67% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   Protocol[m
+[7m Manual page scp(1) line 80/156 67% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   ProxyCommand[m
+[7m Manual page scp(1) line 81/156 67% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   PubkeyAuthentication[m
+[7m Manual page scp(1) line 82/156 68% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   RekeyLimit[m
+[7m Manual page scp(1) line 83/156 69% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   RhostsRSAAuthentication[m
+[7m Manual page scp(1) line 84/156 69% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   RSAAuthentication[m
+[7m Manual page scp(1) line 85/156 70% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   SendEnv[m
+[7m Manual page scp(1) line 86/156 70% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   ServerAliveInterval[m
+[7m Manual page scp(1) line 87/156 71% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   ServerAliveCountMax[m
+[7m Manual page scp(1) line 88/156 71% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   StrictHostKeyChecking[m
+[7m Manual page scp(1) line 89/156 72% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   TCPKeepAlive[m
+[7m Manual page scp(1) line 90/156 73% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   UsePrivilegedPort[m
+[7m Manual page scp(1) line 91/156 73% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   User[m
+[7m Manual page scp(1) line 92/156 74% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   UserKnownHostsFile[m
+[7m Manual page scp(1) line 93/156 74% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   VerifyHostKeyDNS[m
+[7m Manual page scp(1) line 94/156 75% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 95/156 75% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     [1m-P[0m [4mport[24m[m
+[7m Manual page scp(1) line 96/156 75% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             Specifies the port to connect to on the remote host.  Note that[m
+[7m Manual page scp(1) line 97/156 76% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             this option is written with a capital ‘P’, because [1m-p[0m is already[m
+[7m Manual page scp(1) line 98/156 78% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             reserved for preserving the times and modes of the file in[m
+[7m Manual page scp(1) line 99/156 79% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             rcp(1).[m
+[7m Manual page scp(1) line 100/156 79% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 101/156 79% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     [1m-p[0m      Preserves modification times, access times, and modes from the[m
+[7m Manual page scp(1) line 102/156 80% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             original file.[m
+[7m Manual page scp(1) line 103/156 81% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 104/156 81% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     [1m-q[0m      Quiet mode: disables the progress meter as well as warning and[m
+[7m Manual page scp(1) line 105/156 82% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             diagnostic messages from ssh(1).[m
+[7m Manual page scp(1) line 106/156 83% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 107/156 83% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     [1m-r[0m      Recursively copy entire directories.  Note that [1mscp[0m follows sym‐[m
+[7m Manual page scp(1) line 108/156 84% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             bolic links encountered in the tree traversal.[m
+[7m Manual page scp(1) line 109/156 85% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 110/156 85% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     [1m-S[0m [4mprogram[24m[m
+[7m Manual page scp(1) line 111/156 86% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             Name of [4mprogram[24m to use for the encrypted connection.  The program[m
+[7m Manual page scp(1) line 112/156 87% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             must understand ssh(1) options.[m
+[7m Manual page scp(1) line 113/156 88% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 114/156 88% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     [1m-v[0m      Verbose mode.  Causes [1mscp[0m and ssh(1) to print debugging messages[m
+[7m Manual page scp(1) line 115/156 89% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             about their progress.  This is helpful in debugging connection,[m
+[7m Manual page scp(1) line 116/156 91% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             authentication, and configuration problems.[m
+[7m Manual page scp(1) line 117/156 91% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 118/156 91% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mEXIT[0m [1mSTATUS[0m[m
+[7m Manual page scp(1) line 119/156 92% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     The [1mscp[0m utility exits 0 on success, and >0 if an error occurs.[m
+[7m Manual page scp(1) line 120/156 93% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 121/156 93% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mSEE[0m [1mALSO[0m[m
+[7m Manual page scp(1) line 122/156 93% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     rcp(1), sftp(1), ssh(1), ssh-add(1), ssh-agent(1), ssh-keygen(1),[m
+[7m Manual page scp(1) line 123/156 95% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     ssh_config(5), sshd(8)[m
+[7m Manual page scp(1) line 124/156 95% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 125/156 95% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mHISTORY[0m[m
+[7m Manual page scp(1) line 126/156 95% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     [1mscp[0m is based on the rcp(1) program in BSD source code from the Regents of[m
+[7m Manual page scp(1) line 127/156 97% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     the University of California.[m
+[7m Manual page scp(1) line 128/156 97% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 129/156 97% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mAUTHORS[0m[m
+[7m Manual page scp(1) line 130/156 98% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     Timo Rinne ⟨tri@iki.fi⟩[m
+[7m Manual page scp(1) line 131/156 98% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     Tatu Ylonen ⟨ylo@cs.hut.fi⟩[m
+[7m Manual page scp(1) line 132/156 99% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page scp(1) line 133/156 99% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[KBSD                             March 28, 2019                             BSD[m
+[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K[7m Manual page scp(1) line 134/156 (END) (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ man scpscp cs17d60@192.168.0.30:home/home[C[C[C[C/cs17d60
+usage: scp [-12346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ scp cs17d60@192.168.0.30:/home/cs17d60[C cs17d60@192.168.0.30:/home/cs17d60- cs17d60@192.168.0.30:/home/cs17d60r cs17d60@192.168.0.30:/home/cs17d60[C cs17d60@192.168.0.30:/home/cs17d60
+usage: scp [-12346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ s[Kclear
+[H[2J]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ scp [K[K[K[Ksftp [K[K[K[K[Kclearscp -r  cs17d60@192.168.0.30:/home/cs17d60[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pcs17d60@192.168.0.30:/home/cs17d60[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cman scp[Kscp cs17d60@192.168.0.30exit[Kssh cs17d60@192.168.0.30ftp ceccs17d60@192.168.0.30[4Psh cs17d60@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d60@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+278 packages can be updated.
+0 updates are security updates.
+
+Last login: Thu Mar 28 10:24:08 2019 from 192.168.0.57
+$ mkdit r test
+$ ls
+abc.text  ab.txt  c.text  examples.desktop  jj	test
+$ ^C
+$ ^C
+$ exit
+Connection to 192.168.0.30 closed.
+]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ ssh cs17d60@192.168.0.30[Kscp jj cs17d60@gmail[K[K[K[K[K192.169[K8.0.30
+cp: omitting directory `jj'
+]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ scp jj cs17d60@192.168.0.30 [K[C[C cs17d60@192.168.0.30- cs17d60@192.168.0.30r cs17d60@192.168.0.30[C cs17d60@192.168.0.30[1Pcs17d60@192.168.0.30[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C [K:~test
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d60@192.168.0.30's password: 
+scp: ~test: No such file or directory
+]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ scp jj -r cs17d60@192.168.0.30:~test[1@h[1@o[1@m[1@e[1@/
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d60@192.168.0.30's password: 
+scp: ~test: No such file or directory
+]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ scp home/jj -r cs17d60@192.168.0.30:~test[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@h[1@o[1@m[1@e[1@/
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d60@192.168.0.30's password: 
+scp: ~test: No such file or directory
+]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ scp home/jj -r cs17d60@192.168.0.30:~test[K[K[K[Kcs17d60/test
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d60@192.168.0.30's password: 
+home/jj: No such file or directory
+-r: No such file or directory
+]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ scp home/jj -r cs17d60@192.168.0.30:~cs17d60/test[1P[1P[1P[1P[1P
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d60@192.168.0.30's password: 
+jj: not a regular file
+-r: No such file or directory
+]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ scp jj -r cs17d60@192.168.0.30:~cs17d60/test[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kscp jj -r cs17d60@192.168.0.30:~cs17d60/test[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5@home/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Ptest[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pcs17d60@192.168.0.30[3Psh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cclear[Kscp -r  cs17d60@192.168.0.30:/home/cs17d60[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pcs17d60@192.168.0.30:/home/cs17d60[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cman scp[Kscp cs17d60@192.168.0.30exit[Kssh cs17d60@192.168.0.30ftp ceccs17d60@192.168.0.30exit[Ksftp ceccs17d60@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+ceccs17d60@192.168.0.30's password: 
+Permission denied, please try again.
+ceccs17d60@192.168.0.30's password: 
+Permission denied, please try again.
+ceccs17d60@192.168.0.30's password: 
+]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ sftp ceccs17d60@192.168.0.30cp jj -r cs17d60@192.168.0.30:~cs17d60/test[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5@home/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Ptest[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pcs17d60@192.168.0.30[1P[1P[1P[1@s[1@f[1@t[1@p
+ssh: Could not resolve hostname jj: Name or service not known
+Couldn't read packet: Connection reset by peer
+]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ sftp jj cs17d60@192.168.0.30^[ cs17d60@192.168.0.30[ cs17d60@192.168.0.30C cs17d60@192.168.0.30[C[1Pcs17d60@192.168.0.30[1Pcs17d60@192.168.0.30[1Pcs17d60@192.168.0.30[2Pcs17d60@192.168.0.30[1Pcs17d60@192.168.0.30[1Pcs17d60@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d60@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls
+ab.txt              abc.text            c.text              examples.desktop    
+jj                  test                
+sftp> pwd
+Remote working directory: /home/cs17d60
+sftp> cd test
+sftp> pwd
+Remote working directory: /home/cs17d60/test
+sftp> exit
+]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ script ceccs17d60.29[K8.01.2019.scp.text
+Script started, file is ceccs17d60.28.01.2019.scp.text
+]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ scpn[K -r jj cs17d60@192.168.0.30
+]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ scp -r jj cs17d60@192.168.0.30:~/home/cs17d60/test [A
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d60@192.168.0.30's password: 
+scp: /home/cs17d60/home/cs17d60/test: No such file or directory
+]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ scp -r jj cs17d60@192.168.0.30:~/home/cs17d60/test [A
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d60@192.168.0.30's password: 
+scp: /home/cs17d60/home/cs17d60/test: No such file or directory
+]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ scp -r jj cs17d60@192.168.0.30:~/home/cs17d60/test [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P/cs17d60/test
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P/cs17d60/test[1P/cs17d60/test[1P/cs17d60/test[1Pcs17d60/test
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d60@192.168.0.30's password: 
+scp: /home/cs17d60/cs17d60/test: No such file or directory
+]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ scp -r jj cs17d60@192.168.0.30:~/cs17d60/test[C[1P/test[1P/test[1P/test[1P/test[1P/test[1P/test[1P/test[1Ptest
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d60@192.168.0.30's password: 
+ceccs17d60.07.02.2019Ls cmnd1.txt               0%    0     0.0KB/s   --:-- ETAceccs17d60.07.02.2019Ls cmnd1.txt             100%  549     0.5KB/s   00:00    
+17d60.07.02.2019.txt                            0%    0     0.0KB/s   --:-- ETA17d60.07.02.2019.txt                          100%   10KB  10.0KB/s   00:00    
+ceccs17d60.28.03.2019.text                      0%    0     0.0KB/s   --:-- ETAceccs17d60.28.03.2019.text                    100% 8512     8.3KB/s   00:00    
+]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ exit
+exit
+Script done, file is ceccs17d60.28.01.2019.scp.text
+]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ suo[Kdo apt-get upgrade firefox
+[sudo] password for s4dbatch2: 
+Sorry, try again.
+[sudo] password for s4dbatch2: 
+Sorry, try again.
+[sudo] password for s4dbatch2: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following packages will be upgraded:
+  sublime-text
+1 upgraded, 0 newly installed, 0 to rem
