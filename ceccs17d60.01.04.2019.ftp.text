@@ -1,91 +1,0 @@
-Script started on 2019-04-01 11:50:55+0530
-]0;jacob@jacob-Vostro-3478: ~[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~[00m$ exitrsync -a student cs17d60@14.139.189.217:/home/cs17d60~/home/cs17d60[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pd student rsync://cs17d60/student[K[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscript ceccs17d60.01.04.2019.rsync.text[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26Pmkdir studentscript ceccs17d60.01.04.2019.rsync.text[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Prsync -d student rsync://cs17d60/studenta student cs17d60@14.139.189.217:~/home/cs17d60[1P/home/cs17d60[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K[Ksu[K[Ksudo apt-get install ngnix
-[sudo] password for jacob: **********          
-Sorry, try again.
-[sudo] password for jacob: *********         
-Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 3%Reading package lists... 3%Reading package lists... 7%Reading package lists... 7%Reading package lists... 9%Reading package lists... 9%Reading package lists... 9%Reading package lists... 9%Reading package lists... 9%Reading package lists... 9%Reading package lists... 9%Reading package lists... 9%Reading package lists... 37%Reading package lists... 37%Reading package lists... 52%Reading package lists... 66%Reading package lists... 66%Reading package lists... 81%Reading package lists... 81%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 84%Reading package lists... 84%Reading package lists... 86%Reading package lists... 86%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 90%Reading package lists... 90%Reading package lists... 93%Reading package lists... 93%Reading package lists... 94%Reading package lists... 94%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 11%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
-Reading state information... 0%Reading state information... 0%Reading state information... Done
-E: Unable to locate package ngnix
-]0;jacob@jacob-Vostro-3478: ~[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~[00m$ sudo apt-get install ngnix[C[1Pix[Cnx
-Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
-Reading state information... 0%Reading state information... 0%Reading state information... Done
-The following additional packages will be installed:
-  libnginx-mod-http-geoip libnginx-mod-http-image-filter libnginx-mod-http-xslt-filter libnginx-mod-mail libnginx-mod-stream nginx-common nginx-core
-Suggested packages:
-  fcgiwrap nginx-doc
-The following NEW packages will be installed:
-  libnginx-mod-http-geoip libnginx-mod-http-image-filter libnginx-mod-http-xslt-filter libnginx-mod-mail libnginx-mod-stream nginx nginx-common nginx-core
-0 upgraded, 8 newly installed, 0 to remove and 0 not upgraded.
-Need to get 598 kB of archives.
-After this operation, 2,103 kB of additional disk space will be used.
-Do you want to continue? [Y/n] y
-0% [Working]0% [Waiting for headers]                        Get:1 http://ftp.iitm.ac.in/ubuntu bionic-updates/main amd64 nginx-common all 1.14.0-0ubuntu1.2 [37.4 kB]
-1% [1 nginx-common 3,830 B/37.4 kB 10%]                                       8% [Working]            Get:2 http://ftp.iitm.ac.in/ubuntu bionic-updates/main amd64 libnginx-mod-http-geoip amd64 1.14.0-0ubuntu1.2 [11.2 kB]
-8% [2 libnginx-mod-http-geoip 1,093 B/11.2 kB 10%]                                                  12% [Working]             Get:3 http://ftp.iitm.ac.in/ubuntu bionic-updates/main amd64 libnginx-mod-http-image-filter amd64 1.14.0-0ubuntu1.2 [14.5 kB]
-12% [3 libnginx-mod-http-image-filter 1,094 B/14.5 kB 8%]                                                         16% [Working]             Get:4 http://ftp.iitm.ac.in/ubuntu bionic-updates/main amd64 libnginx-mod-http-xslt-filter amd64 1.14.0-0ubuntu1.2 [13.0 kB]
-16% [4 libnginx-mod-http-xslt-filter 1,094 B/13.0 kB 8%]                                                        20% [Working]             Get:5 http://ftp.iitm.ac.in/ubuntu bionic-updates/main amd64 libnginx-mod-mail amd64 1.14.0-0ubuntu1.2 [41.8 kB]
-20% [5 libnginx-mod-mail 1,094 B/41.8 kB 3%]                                            28% [Working]             Get:6 http://ftp.iitm.ac.in/ubuntu bionic-updates/main amd64 libnginx-mod-stream amd64 1.14.0-0ubuntu1.2 [63.6 kB]
-29% [6 libnginx-mod-stream 3,830 B/63.6 kB 6%]                                              39% [Working]             Get:7 http://ftp.iitm.ac.in/ubuntu bionic-updates/main amd64 nginx-core amd64 1.14.0-0ubuntu1.2 [413 kB]
-40% [7 nginx-core 3,828 B/413 kB 1%]56% [7 nginx-core 121 kB/413 kB 29%]                                    97% [Working]             Get:8 http://ftp.iitm.ac.in/ubuntu bionic-updates/main amd64 nginx all 1.14.0-0ubuntu1.2 [3,596 B]
-98% [8 nginx 3,596 B/3,596 B 100%]                                  100% [Working]              Fetched 598 kB in 3s (191 kB/s)
-Preconfiguring packages ...
-Selecting previously unselected package nginx-common.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 292588 files and directories currently installed.)
-Preparing to unpack .../0-nginx-common_1.14.0-0ubuntu1.2_all.deb ...
-Unpacking nginx-common (1.14.0-0ubuntu1.2) ...
-Selecting previously unselected package libnginx-mod-http-geoip.
-Preparing to unpack .../1-libnginx-mod-http-geoip_1.14.0-0ubuntu1.2_amd64.deb ...
-Unpacking libnginx-mod-http-geoip (1.14.0-0ubuntu1.2) ...
-Selecting previously unselected package libnginx-mod-http-image-filter.
-Preparing to unpack .../2-libnginx-mod-http-image-filter_1.14.0-0ubuntu1.2_amd64.deb ...
-Unpacking libnginx-mod-http-image-filter (1.14.0-0ubuntu1.2) ...
-Selecting previously unselected package libnginx-mod-http-xslt-filter.
-Preparing to unpack .../3-libnginx-mod-http-xslt-filter_1.14.0-0ubuntu1.2_amd64.deb ...
-Unpacking libnginx-mod-http-xslt-filter (1.14.0-0ubuntu1.2) ...
-Selecting previously unselected package libnginx-mod-mail.
-Preparing to unpack .../4-libnginx-mod-mail_1.14.0-0ubuntu1.2_amd64.deb ...
-Unpacking libnginx-mod-mail (1.14.0-0ubuntu1.2) ...
-Selecting previously unselected package libnginx-mod-stream.
-Preparing to unpack .../5-libnginx-mod-stream_1.14.0-0ubuntu1.2_amd64.deb ...
-Unpacking libnginx-mod-stream (1.14.0-0ubuntu1.2) ...
-Selecting previously unselected package nginx-core.
-Preparing to unpack .../6-nginx-core_1.14.0-0ubuntu1.2_amd64.deb ...
-Unpacking nginx-core (1.14.0-0ubuntu1.2) ...
-Selecting previously unselected package nginx.
-Preparing to unpack .../7-nginx_1.14.0-0ubuntu1.2_all.deb ...
-Unpacking nginx (1.14.0-0ubuntu1.2) ...
-Processing triggers for ufw (0.35-5) ...
-Processing triggers for ureadahead (0.100.0-20) ...
-Setting up nginx-common (1.14.0-0ubuntu1.2) ...
-Created symlink /etc/systemd/system/multi-user.target.wants/nginx.service → /lib/systemd/system/nginx.service.
-Setting up libnginx-mod-http-image-filter (1.14.0-0ubuntu1.2) ...
-Processing triggers for systemd (237-3ubuntu10.15) ...
-Setting up libnginx-mod-mail (1.14.0-0ubuntu1.2) ...
-Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
-Setting up libnginx-mod-http-xslt-filter (1.14.0-0ubuntu1.2) ...
-Setting up libnginx-mod-http-geoip (1.14.0-0ubuntu1.2) ...
-Setting up libnginx-mod-stream (1.14.0-0ubuntu1.2) ...
-Setting up nginx-core (1.14.0-0ubuntu1.2) ...
-Setting up nginx (1.14.0-0ubuntu1.2) ...
-Processing triggers for ureadahead (0.100.0-20) ...
-Processing triggers for ufw (0.35-5) ...
-]0;jacob@jacob-Vostro-3478: ~[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~[00m$ sudi[Ko gedit/[K /etc/nginx/sites_[K-enabled/default
-^O
-** (gedit:8157): [1;33mWARNING[0m **: [34m11:58:18.850[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
-
-** (gedit:8157): [1;33mWARNING[0m **: [34m11:58:18.851[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
-
-** (gedit:8157): [1;33mWARNING[0m **: [34m11:58:35.093[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
-
-** (gedit:8157): [1;33mWARNING[0m **: [34m11:58:35.094[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
-
-** (gedit:8157): [1;33mWARNING[0m **: [34m11:59:49.240[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
-
-** (gedit:8157): [1;33mWARNING[0m **: [34m12:00:13.792[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
-]0;jacob@jacob-Vostro-3478: ~[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~[00m$ 
-]0;jacob@jacob-Vostro-3478: ~[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~[00m$ exit
-exit
-
-Script done on 2019-04-01 12:00:16+0530
