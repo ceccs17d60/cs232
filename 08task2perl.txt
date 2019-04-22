@@ -1,9 +1,31 @@
 Script started on 2019-04-08 11:54:39+0530
 ]0;jacob@jacob-Vostro-3478: ~[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~[00m$ sudo apt-get install perl
 [sudo] password for jacob: *********         
-Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
-Reading state information... 0%Reading state information... 0%Reading state information... Done
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
 perl is already the newest version (5.26.1-6ubuntu0.3).
 The following packages were automatically installed and are no longer required:
   antlr3 bnd java-wrappers javahelp2 junit4-doc libantlr3-runtime-java
