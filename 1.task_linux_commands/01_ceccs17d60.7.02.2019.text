@@ -1,0 +1,319 @@
+Script started on Thursday 07 February 2019 09:14:49 AM +05
+]0;jacob@jacob-Vostro-3478: ~[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~[00m$ mkdir sample
+]0;jacob@jacob-Vostro-3478: ~[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~[00m$ cd sample
+]0;jacob@jacob-Vostro-3478: ~/sample[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample[00m$ mkdir example
+]0;jacob@jacob-Vostro-3478: ~/sample[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample[00m$ cd example
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ cd ../
+]0;jacob@jacob-Vostro-3478: ~/sample[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample[00m$ cd[K[Kcd examples
+bash: cd: examples: No such file or directory
+]0;jacob@jacob-Vostro-3478: ~/sample[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample[00m$ cd examples[K
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ cd
+]0;jacob@jacob-Vostro-3478: ~[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~[00m$ cd sample/examples
+bash: cd: sample/examples: No such file or directory
+]0;jacob@jacob-Vostro-3478: ~[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~[00m$ cd sample/examples[K
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ cat >biodata
+name:  jacob mathew
+d D.O.B:17.01.    -01-1996
+^C
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ cat biodata
+name:jacob mathew
+D.O.B:17-01-1996
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ ls
+biodata
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ ls -a
+[0m[01;34m.[0m  [01;34m..[0m  biodata
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ ls [K[K[Kcat no1>no1
+j 1.jacob
+2.tinto
+3.varkey
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ cat >no1[3Pls -a[K -acat >no1[Klsltr
+lsltr: command not found
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ lsltr ltr[C[C[C[K[K[K-l
+total 8
+-rw-rw-r-- 1 jacob jacob 35 Feb  7 09:17 biodata
+-rw-rw-r-- 1 jacob jacob 25 Feb  7 09:19 no1
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ ls -l[Kli[Ks -lt
+total 8
+-rw-rw-r-- 1 jacob jacob 25 Feb  7 09:19 no1
+-rw-rw-r-- 1 jacob jacob 35 Feb  7 09:17 biodata
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ ls -ltr
+total 8
+-rw-rw-r-- 1 jacob jacob 35 Feb  7 09:17 biodata
+-rw-rw-r-- 1 jacob jacob 25 Feb  7 09:19 no1
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ ls b(*[K[K* -d
+biodata
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ alias -[Kcl=[K[K[Kdisplay='cat no1'
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ s[Kdiplay
+No command 'diplay' found, did you mean:
+ Command 'display' from package 'imagemagick' (main)
+ Command 'display' from package 'graphicsmagick-imagemagick-compat' (universe)
+diplay: command not found
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ diplay[Ks[Kdisplay
+1.jacob
+2.tinto
+3.varkey
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ alias -p
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+alias display='cat no1'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'
+alias l='ls -CF'
+alias la='ls -A'
+alias ll='ls -alF'
+alias ls='ls --color=auto'
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ alias clear[K[K[K[K[Kcl='clear'
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ al[K[Kcl
+[3;J[H[2J]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ alias c[K[K -p
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+alias cl='clear'
+alias display='cat no1'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'
+alias l='ls -CF'
+alias la='ls -A'
+alias ll='ls -alF'
+alias ls='ls --color=auto'
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ unalias cl
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ unalias cl[2Palias -p
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+alias display='cat no1'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'
+alias l='ls -CF'
+alias la='ls -A'
+alias ll='ls -alF'
+alias ls='ls --color=auto'
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ unalias -a
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ unalias -a[2Palias -p
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ sort -n[K[K[K[K[K[K[Kls
+biodata  no1
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ sort -n biodata
+D.O.B:17-01-1996
+name:jacob mathew
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ sort -rnk7 no1
+3.varkey
+2.tinto
+1.jacob
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ sort -n no1
+1.jacob
+2.tinto
+3.varkey
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ sort -t'$\t' -k7 no1
+sort: multi-character tab â€˜$\\tâ€™
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ sort -t'$\t' -k7 no1[1@\
+sort: multi-character tab â€˜$\\\\tâ€™
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ sort -t'$\\t' -k7 no1[1P[1@ 
+sort: multi-character tab â€˜$\\tâ€™
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ cut f3-[K[K[K-f3 no1
+1.jacob
+2.tinto
+3.varkey
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ cut -f3 no1[1@-[C[C[C[C[C[K[K[K[K no1
+1.jacob
+2.tinto
+3.varkey
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ cut -f-3 no1[K[K[K[K[K[K[Kf-3
+jjj
+jjj
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ cut -f-3 no1[K[Kcut -f3n[K no1
+1.jacob
+2.tinto
+3.varkey
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ cyt[K[Kut -b 12[K no1
+1
+2
+3
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ cut -b 1 no1- no13 no1[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcut -- help[Kcut -b 1-3 m[Kn01[K[Ko1
+1.j
+2.t
+3.v
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ cut -b 2- no1
+.jacob
+.tinto
+.varkey
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ cut -b 2- no1[1P[1@1[1P[1@3
+jacob
+tinto
+varkey
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ cut -b 3- no1[C[C[1P no1[1@-
+1.j
+2.t
+3.v
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ cut -c 2 no1
+.
+.
+.
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ cut -c 2 no1[Kcut -c 2-4 n01[K[Ko1
+.ja
+.ti
+.va
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ cut c [K [K[K-c 1-3 [K[K no1
+1.jacob
+2.tinto
+3.varkey
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ cut -c 1- no1[Kcut -c 1- no1[K[K[K[K[K[K[K[K[K-c 2- mp[Ko1[K[K[Kno1
+.jacob
+.tinto
+.varkey
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ cut f[K-f 1 no1
+1.jacob
+2.tinto
+3.varkey
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ cut -f 1 no1[1P no1[1Pno11no1,no1[1Pno1 no12no1 no1
+cut: 2: No such file or directory
+1.jacob
+2.tinto
+3.varkey
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ cut -f 1 2 no1[1P
+1.jacob
+2.tinto
+3.varkey
+
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ cat -f 1 no1[1P[1@u[C[1@t[1P
+1.jacob
+2.tinto
+3.varkey
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ cut -f 1 no1[K[K[Kabc.text
+JacobMathew
+thoppilpeedikayil
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ cut -f 1 abc.text[1P abc.text4 abc.text
+JacobMathew
+thoppilpeedikayil
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ jj[K[Kcat jj[K[K[K>k.text
+jacob name
+address
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ catk[K>kk.text
+jacob name
+address
+thamo pi
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ sort k.text
+address
+jacob name
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ sort kk.text
+address
+jacob name
+thampi
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ join k.text1 kk.text[1P kk.text
+jacob name name
+address
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ cat kk text[1Ptext.text
+jacob name
+address
+thampi
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ grep "name" kk.text
+jacob name
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ grep -c kk.text[C kk.text" kk.textb kk.text[1P kk.textn kk.text" kk.text[C kk.text
+1
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ grep -c "n"  kk.text[1@a[1@m[1@e
+1
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ grep -c '[K"a" k.text
+2
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ grep -c "a" k.textname"  kk.text[5Pa" k.text[Kcatt[K k.text
+jacob name
+address
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ grep -w "name [K" k.text
+jacob name
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ grep -r "nam" k.exttext
+jacob name
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ grep ac[K[K"anc[K[Kbc\\[K|xyz" kk.text
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ grep "abc\|xyz" kk.text[C[C[C[C[C[1P[1P[1P[1@s
+address
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ cat -n kk.text
+     1	jacob name
+     2	address
+     3	thampi
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ free[K[K[K[Kfree
+              total        used        free      shared  buff/cache   available
+Mem:        3907672      886604     1477764      276468     1543304     2455704
+Swap:       8111100           0     8111100
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ ifconfig -a
+enp2s0    Link encap:Ethernet  HWaddr 54:48:10:d0:81:10  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:3242 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:3242 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:324870 (324.8 KB)  TX bytes:324870 (324.8 KB)
+
+wlp3s0    Link encap:Ethernet  HWaddr dc:a2:66:4c:ab:a1  
+          inet addr:192.168.43.213  Bcast:192.168.43.255  Mask:255.255.255.0
+          inet6 addr: fe80::55d:e9c7:7be5:bac9/64 Scope:Link
+          inet6 addr: 2402:3a80:e2b:6a93:5cb:7eed:1415:b43/64 Scope:Global
+          inet6 addr: 2402:3a80:e2b:6a93:5d47:18c8:161d:47d1/64 Scope:Global
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:28933 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:23799 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:24100005 (24.1 MB)  TX bytes:5294870 (5.2 MB)
+
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ route
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+default         192.168.43.1    0.0.0.0         UG    600    0        0 wlp3s0
+link-local      *               255.255.0.0     U     1000   0        0 wlp3s0
+192.168.43.0    *               255.255.255.0   U     600    0        0 wlp3s0
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ iwconfig
+wlp3s0    IEEE 802.11abgn  ESSID:"redmiii"  
+          Mode:Managed  Frequency:2.462 GHz  Access Point: 04:B1:67:C5:81:57   
+          Bit Rate=1 Mb/s   Tx-Power=20 dBm   
+          Retry short limit:7   RTS thr:off   Fragment thr:off
+          Power Management:on
+          Link Quality=68/70  Signal level=-42 dBm  
+          Rx invalid nwid:0  Rx invalid crypt:0  Rx invalid frag:0
+          Tx excessive retries:0  Invalid misc:192   Missed beacon:0
+
+enp2s0    no wireless extensions.
+
+lo        no wireless extensions.
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ ps
+  PID TTY          TIME CMD
+ 4740 pts/18   00:00:00 bash
+ 8612 pts/18   00:00:00 ps
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ ps -ef
+UID        PID  PPID  C STIME TTY          TIME CMD
+root         1     0  0 Feb07 ?        00:00:02 /sbin/init splash
+root         2     0  0 Feb07 ?        00:00:00 [kthreadd]
+root         3     2  0 Feb07 ?        00:00:00 [ksoftirqd/0]
+root         5     2  0 Feb07 ?        00:00:00 [kworker/0:0H]
+root         7     2  0 Feb07 ?        00:00:02 [rcu_sched]
+root         8     2  0 Feb07 ?        00:00:00 [rcu_bh]
+root         9     2  0 Feb07 ?        00:00:00 [migration/0]
+root        10     2  0 Feb07 ?        00:00:00 [watchdog/0]
+root        11     2  0 Feb07 ?        00:00:00 [watchdog/1]
+root     2  0 Feb07 ?        00:00:00 [kworker/1:1H]
+root       341     2  0 Feb07 ?        00:00:00 [kauditd]
+root       343  
+nobody    8586  2289  0 14:46 ?        00:00:00 /usr/sbin/dnsmasq --no-resolv --
+root      8593     2  0 14:46 ?        00:00:00 [kworker/u16:2]
+root      8605     2  0 14:47 ?        00:00:00 [kworker/u16:3]
+root      8606     2  0 14:47 ?        00:00:00 [kworker/u16:4]
+root      8608     2  0 14:47 ?        00:00:00 [kworker/0:0]
+jacob     8616  4740  0 14:48 pts/18   00:00:00 ps -ef
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ kill ps -ef[Kifuppingtcpdump -i eth0[2Pdhclient usb0[5Piwconfig[3Prouteifconfig eth0 192.168.0.20-a[K[7Pfreesed 'li' kk.text[K-e  kk.text[3P kk.textli kk.textâ€™1i \\t Line 1 after tab \n Line 2 
+ \t Line 2 \n Line 3 \nâ€™ kk.texttemp1.text[3Pkk.text[A
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ [C[C[C[Cli kk.text[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2P kk.text-e  kk.text[7P'li' kk.textfree[Kifconfig -aeth0 192.168.0.20route[Kiwconfigdhclient usb0tcpdump -i eth0ping[Kifup[2Pps -ef[1Pkill [Kps
+  PID TTY          TIME CMD
+ 4740 pts/18   00:00:00 bash
+ 8625 pts/18   00:00:00 ps
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ kill 4740
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ k[Kkill 4740ps[Kkill [3Pps
+  PID TTY          TIME CMD
+ 4740 pts/18   00:00:00 bash
+ 8626 pts/18   00:00:00 ps
+
+]0;jacob@jacob-Vostro-3478: ~/sample/example[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~/sample/example[00m$ kill -9 8626[K[K[K[K4740
+
+Script done on Friday 08 February 2019 02:49:33 PM +05
