@@ -1,0 +1,317 @@
+Script started on 2019-04-08 09:21:29+0530
+]0;jacob@jacob-Vostro-3478: ~[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~[00m$ sudo apt-get install la[K[K[K apache [K2
+[sudo] password for jacob: *********         
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+apache2 is already the newest version (2.4.29-1ubuntu4.6).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+]0;jacob@jacob-Vostro-3478: ~[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~[00m$ sudo apt-get install mysql-server[Ksudo apt-he[K[Kget install mysql_[K-server
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+mysql-server is already the newest version (5.7.25-0ubuntu0.18.04.2).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+
+]0;jacob@jacob-Vostro-3478: ~[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~[00m$ sudo apt-get install php5[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K    $ sudo apt-get install php libapache2-mod-php[1P[1P[1P[1P[1P
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+The following additional packages will be installed:
+  libapache2-mod-php7.2 php-common php7.2 php7.2-cli php7.2-common php7.2-json
+  php7.2-opcache php7.2-readline
+Suggested packages:
+  php-pear
+The following NEW packages will be installed:
+  libapache2-mod-php libapache2-mod-php7.2 php php-common php7.2 php7.2-cli
+  php7.2-common php7.2-json php7.2-opcache php7.2-readline
+0 upgraded, 10 newly installed, 0 to remove and 0 not upgraded.
+Need to get 3,865 kB of archives.
+After this operation, 17.2 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+
+0% [Working]
+            
+Get:1 http://ftp.iitm.ac.in/ubuntu bionic/main amd64 php-common all 1:60ubuntu1 [12.1 kB]
+
+0% [1 php-common 2,462 B/12.1 kB 20%] [Waiting for headers]
+                                                           
+2% [Waiting for headers]
+                        
+Get:2 http://ftp.iitm.ac.in/ubuntu bionic/main amd64 libapache2-mod-php all 1:7.2+60ubuntu1 [3,212 B]
+
+2% [2 libapache2-mod-php 1,096 B/3,212 B 34%] [Waiting for headers]
+4% [Connecting to ftp.iitm.ac.in (64:ff9b::e8b:a0c3)] [Waiting for headers]
+                                                                           
+Get:3 http://ftp.iitm.ac.in/ubuntu bionic/main amd64 php all 1:7.2+60ubuntu1 [3,084 B]
+
+                                                                           
+4% [3 php 1,096 B/3,084 B 36%] [Waiting for headers]
+                                                    
+6% [Waiting for headers]
+                        
+Get:4 http://security.ubuntu.com/ubuntu bionic-security/main amd64 php7.2-common amd64 7.2.15-0ubuntu0.18.04.2 [883 kB]
+
+7% [4 php7.2-common 11.8 kB/883 kB 1%]
+7% [4 php7.2-common 42.0 kB/883 kB 5%]
+10% [4 php7.2-common 183 kB/883 kB 21%]
+18% [4 php7.2-common 577 kB/883 kB 65%]
+                                       
+27% [Working]
+             
+Get:5 http://security.ubuntu.com/ubuntu bionic-security/main amd64 php7.2-json amd64 7.2.15-0ubuntu0.18.04.2 [18.8 kB]
+
+27% [5 php7.2-json 17.9 kB/18.8 kB 95%]
+                                       
+29% [Waiting for headers]
+                         
+Get:6 http://security.ubuntu.com/ubuntu bionic-security/main amd64 php7.2-opcache amd64 7.2.15-0ubuntu0.18.04.2 [165 kB]
+
+29% [6 php7.2-opcache 13.3 kB/165 kB 8%]
+                                        
+34% [Waiting for headers]
+                         
+Get:7 http://security.ubuntu.com/ubuntu bionic-security/main amd64 php7.2-readline amd64 7.2.15-0ubuntu0.18.04.2 [12.1 kB]
+
+34% [7 php7.2-readline 1,353 B/12.1 kB 11%]
+                                           
+37% [Waiting for headers]
+                         
+Get:8 http://security.ubuntu.com/ubuntu bionic-security/main amd64 php7.2-cli amd64 7.2.15-0ubuntu0.18.04.2 [1,408 kB]
+
+37% [8 php7.2-cli 4,654 B/1,408 kB 0%]
+43% [8 php7.2-cli 321 kB/1,408 kB 23%]
+53% [8 php7.2-cli 809 kB/1,408 kB 57%]
+60% [8 php7.2-cli 1,106 kB/1,408 kB 79%]
+65% [8 php7.2-cli 1,385 kB/1,408 kB 98%]
+                                        
+68% [Waiting for headers]
+                         
+Get:9 http://security.ubuntu.com/ubuntu bionic-security/main amd64 libapache2-mod-php7.2 amd64 7.2.15-0ubuntu0.18.04.2 [1,349 kB]
+
+68% [9 libapache2-mod-php7.2 3,227 B/1,349 kB 0%]
+76% [9 libapache2-mod-php7.2 402 kB/1,349 kB 30%]
+84% [9 libapache2-mod-php7.2 794 kB/1,349 kB 59%]                   515 kB/s 1s
+88% [9 libapache2-mod-php7.2 982 kB/1,349 kB 73%]                   515 kB/s 0s
+93% [9 libapache2-mod-php7.2 1,226 kB/1,349 kB 91%]                 515 kB/s 0s
+98% [Working]                                                       515 kB/s 0s
+                                                                               
+Get:10 http://security.ubuntu.com/ubuntu bionic-security/main amd64 php7.2 all 7.2.15-0ubuntu0.18.04.2 [9,244 B]
+
+98% [10 php7.2 1,929 B/9,244 B 21%]                                 515 kB/s 0s
+100% [Working]                                                      515 kB/s 0s
+                                                                               
+Fetched 3,865 kB in 8s (501 kB/s)
+Selecting previously unselected package php-common.
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 328905 files and directories currently installed.)
+Preparing to unpack .../0-php-common_1%3a60ubuntu1_all.deb ...
+Unpacking php-common (1:60ubuntu1) ...
+Selecting previously unselected package php7.2-common.
+Preparing to unpack .../1-php7.2-common_7.2.15-0ubuntu0.18.04.2_amd64.deb ...
+Unpacking php7.2-common (7.2.15-0ubuntu0.18.04.2) ...
+Selecting previously unselected package php7.2-json.
+Preparing to unpack .../2-php7.2-json_7.2.15-0ubuntu0.18.04.2_amd64.deb ...
+Unpacking php7.2-json (7.2.15-0ubuntu0.18.04.2) ...
+Selecting previously unselected package php7.2-opcache.
+Preparing to unpack .../3-php7.2-opcache_7.2.15-0ubuntu0.18.04.2_amd64.deb ...
+Unpacking php7.2-opcache (7.2.15-0ubuntu0.18.04.2) ...
+Selecting previously unselected package php7.2-readline.
+Preparing to unpack .../4-php7.2-readline_7.2.15-0ubuntu0.18.04.2_amd64.deb ...
+Unpacking php7.2-readline (7.2.15-0ubuntu0.18.04.2) ...
+Selecting previously unselected package php7.2-cli.
+Preparing to unpack .../5-php7.2-cli_7.2.15-0ubuntu0.18.04.2_amd64.deb ...
+Unpacking php7.2-cli (7.2.15-0ubuntu0.18.04.2) ...
+Selecting previously unselected package libapache2-mod-php7.2.
+Preparing to unpack .../6-libapache2-mod-php7.2_7.2.15-0ubuntu0.18.04.2_amd64.deb ...
+Unpacking libapache2-mod-php7.2 (7.2.15-0ubuntu0.18.04.2) ...
+Selecting previously unselected package libapache2-mod-php.
+Preparing to unpack .../7-libapache2-mod-php_1%3a7.2+60ubuntu1_all.deb ...
+Unpacking libapache2-mod-php (1:7.2+60ubuntu1) ...
+Selecting previously unselected package php7.2.
+Preparing to unpack .../8-php7.2_7.2.15-0ubuntu0.18.04.2_all.deb ...
+Unpacking php7.2 (7.2.15-0ubuntu0.18.04.2) ...
+Selecting previously unselected package php.
+Preparing to unpack .../9-php_1%3a7.2+60ubuntu1_all.deb ...
+Unpacking php (1:7.2+60ubuntu1) ...
+Setting up php-common (1:60ubuntu1) ...
+Created symlink /etc/systemd/system/timers.target.wants/phpsessionclean.timer → /lib/systemd/system/phpsessionclean.timer.
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+Setting up php7.2-common (7.2.15-0ubuntu0.18.04.2) ...
+
+Creating config file /etc/php/7.2/mods-available/calendar.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/ctype.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/exif.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/fileinfo.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/ftp.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/gettext.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/iconv.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/pdo.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/phar.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/posix.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/shmop.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/sockets.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/sysvmsg.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/sysvsem.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/sysvshm.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/tokenizer.ini with new version
+Setting up php7.2-readline (7.2.15-0ubuntu0.18.04.2) ...
+
+Creating config file /etc/php/7.2/mods-available/readline.ini with new version
+Setting up php7.2-json (7.2.15-0ubuntu0.18.04.2) ...
+
+Creating config file /etc/php/7.2/mods-available/json.ini with new version
+Setting up php7.2-opcache (7.2.15-0ubuntu0.18.04.2) ...
+
+Creating config file /etc/php/7.2/mods-available/opcache.ini with new version
+Setting up php7.2-cli (7.2.15-0ubuntu0.18.04.2) ...
+update-alternatives: using /usr/bin/php7.2 to provide /usr/bin/php (php) in auto mode
+update-alternatives: using /usr/bin/phar7.2 to provide /usr/bin/phar (phar) in auto mode
+update-alternatives: using /usr/bin/phar.phar7.2 to provide /usr/bin/phar.phar (phar.phar) in auto mode
+
+Creating config file /etc/php/7.2/cli/php.ini with new version
+Setting up libapache2-mod-php7.2 (7.2.15-0ubuntu0.18.04.2) ...
+
+Creating config file /etc/php/7.2/apache2/php.ini with new version
+Module mpm_event disabled.
+Enabling module mpm_prefork.
+apache2_switch_mpm Switch to prefork
+apache2_invoke: Enable module php7.2
+Setting up libapache2-mod-php (1:7.2+60ubuntu1) ...
+Setting up php7.2 (7.2.15-0ubuntu0.18.04.2) ...
+Setting up php (1:7.2+60ubuntu1) ...
+]0;jacob@jacob-Vostro-3478: ~[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~[00m$ sudo nano /var/www/html/info.php
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[49m(B[m[H[2J[22;35H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 2.9.3                /var/www/html/info.php                          [1;79H(B[m
+[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos
+[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line
+[22d[3d[49m(B[m[?12l[?25h[?25l[1;71H(B[0;7mModified(B[m
+[3d<[?12l[?25h[?25lp[?12l[?25h[?25lh[?12l[?25h[?25lp[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l(B[0;1m[32m<?[39m(B[m[?12l[?25h[?25lP[?12l[?25h[?25lH[?12l[?25h[?25lP[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25lp[?12l[?25h[?25lh[?12l[?25h[?25lo[?12l[?25h[?25l [?12l[?25h[?25l(B[0;1m[32mphp[39m(B[m[?12l[?25h[?25l
+[4d[?12l[?25h[?25lp[?12l[?25h[?25lj[?12l[?25h[?25l [?12l[?25h[?25lh
+[22d[K[4dph[?12l[?25h[?25lp[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lf[?12l[?25h[?25lo[?12l[?25h[?25l
+[37mphpinfo([39m(B[m[?12l[?25h[?25l)[?12l[?25h[?25l;[?12l[?25h[?25l
+[5d[?12l[?25h[?25l>[?12l[?25h[?25l[?12l[?25h[?25l(B[0;1m[32m?>[39m(B[m[?12l[?25h[?25l?O>[?12l[?25h[?25l
+(B[0;1m[32m?>[39m(B[m[K[?12l[?25h[?25l[C[?12l[?25h[?25l
+[6d[?12l[?25h[?25lX[?12l[?25h[?25l[22d(B[0;7mSave modified buffer?  (Answering "No" will DISCARD changes.)                   [23;1H Y(B[m Yes[K
+[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;63H[?12l[?25h[?25l
+[23d(B[0;7m^G(B[m Get Help[23;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[23;61H(B[0;7mM-B(B[m Backup File
+[24d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[24;61H(B[0;7m^T(B[m To Files
+[22d(B[0;7mFile Name to Write: /var/www/html/info.php                   
+(B[m[22;43H[?12l[?25h[?25l
+[K[1;79H[1;71H(B[0;7m        (B[m[22;32H(B[0;7m[ Wrote 4 lines ](B[m
+[J[24;80H[?12l[?25h[24;1H[?1049l[23;0;0t
+[?1l>]0;jacob@jacob-Vostro-3478: ~[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~[00m$ sudo nano /var/www/html/info.php[7Papt-get install php5nano /var/www/html/info.php
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K sudo systemctl restart apache2
+]0;jacob@jacob-Vostro-3478: ~[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~[00m$ sudo nano /var/www/html/info.php
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ksudo nano /var/www/html/info.php
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ksystemctl restart apache2.service
+]0;jacob@jacob-Vostro-3478: ~[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~[00m$ sudo systemctl enable apache2.service
+Synchronizing state of apache2.service with SysV service script with /lib/systemd/systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install enable apache2
+]0;jacob@jacob-Vostro-3478: ~[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~[00m$ sudo systemctl enable mysql.service
+Synchronizing state of mysql.service with SysV service script with /lib/systemd/systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install enable mysql
+]0;jacob@jacob-Vostro-3478: ~[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~[00m$ systemctl restart apache2.service
+]0;jacob@jacob-Vostro-3478: ~[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~[00m$ exit
+
+Script done on 2019-04-08 09:46:38+0530
