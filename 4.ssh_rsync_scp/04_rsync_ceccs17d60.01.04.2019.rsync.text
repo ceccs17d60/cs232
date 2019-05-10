@@ -1,0 +1,20 @@
+Script started on 2019-04-01 11:45:10+0530
+
+]0;jacob@jacob-Vostro-3478: ~[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~[00m$ rsync -a student cs17d60@14.139.189.217:~/home/cs17d60[1P/home/cs17d60
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d60@14.139.189.217's password: 
+^[[B]0;jacob@jacob-Vostro-3478: ~[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~[00m$ rsync -a student cs17d60@14.139.189.217:/home/cs17d60
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d60@14.139.189.217's password: 
+]0;jacob@jacob-Vostro-3478: ~[01;32mjacob@jacob-Vostro-3478[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2019-04-01 11:47:05+0530

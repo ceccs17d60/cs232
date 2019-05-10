@@ -1,0 +1,20 @@
+
+]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ scp -r jj cs17d60@192.168.0.30:~/cs17d60/test[C[1P/test[1P/test[1P/test[1P/test[1P/test[1P/test[1P/test[1Ptest
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d60@192.168.0.30's password: 
+
+ceccs17d60.07.02.2019Ls cmnd1.txt               0%    0     0.0KB/s   --:-- ETA
+ceccs17d60.07.02.2019Ls cmnd1.txt             100%  549     0.5KB/s   00:00    
+
+17d60.07.02.2019.txt                            0%    0     0.0KB/s   --:-- ETA
+17d60.07.02.2019.txt                          100%   10KB  10.0KB/s   00:00    
+
+ceccs17d60.28.03.2019.text                      0%    0     0.0KB/s   --:-- ETA
+ceccs17d60.28.03.2019.text                    100% 8512     8.3KB/s   00:00    
+]0;s4dbatch2@lab2-HCL-Desktop: ~s4dbatch2@lab2-HCL-Desktop:~$ exit
+exit
+Script done, file is ceccs17d60.28.01.2019.scp.text
